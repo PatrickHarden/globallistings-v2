@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handle SUCCESS action should amend new properties 1`] = `
+Object {
+  "P1": Object {
+    "numberOfBedrooms": 1,
+  },
+  "P2": Object {
+    "numberOfBedrooms": 2,
+  },
+}
+`;
+
+exports[`handle SUCCESS action should correctly handle single SUCCESS 1`] = `
+Object {
+  "P1": Object {
+    "numberOfBedrooms": 1,
+  },
+}
+`;
+
+exports[`handle SUCCESS action should overwrite old properties with same id 1`] = `
+Object {
+  "P1": Object {
+    "numberOfBedrooms": 3,
+  },
+}
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handle SUCCESS action should amend old property searches with new 1`] = `
+Object {
+  "MOCK_HASH": Object {
+    "createdAt": 2018-12-10T11:11:13.000Z,
+    "status": "SUCCESS",
+  },
+  "MOCK_HASH_2": Object {
+    "createdAt": 2018-12-10T11:11:13.000Z,
+    "status": "SUCCESS",
+  },
+}
+`;
+
+exports[`handle SUCCESS action should correctly handle single SUCCESS 1`] = `
+Object {
+  "MOCK_HASH": Object {
+    "createdAt": 2018-12-10T11:11:13.000Z,
+    "status": "SUCCESS",
+  },
+}
+`;
+
+exports[`handle SUCCESS action should overwrite old properties with same id 1`] = `
+Object {
+  "MOCK_HASH": Object {
+    "createdAt": 2018-12-10T11:11:13.000Z,
+    "status": "SUCCESS",
+  },
+}
+`;
+
+exports[`should correctly handle failure 1`] = `
+Object {
+  "MOCK_HASH": Object {
+    "error": [Error: boom],
+    "status": "ERROR",
+  },
+}
+`;
+
+exports[`should correctly handle request 1`] = `
+Object {
+  "MOCK_HASH": Object {
+    "status": "PENDING",
+  },
+}
+`;

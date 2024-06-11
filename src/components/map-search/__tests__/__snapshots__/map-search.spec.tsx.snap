@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components map-search should render correctly 1`] = `
+<Select
+  autocomplete={true}
+  handleInput={[Function]}
+  handleSelect={[Function]}
+  highlightCurrentValue={true}
+  icon={<MagnifyingGlass />}
+  initialInputValue="initialSearchLocation"
+  items={
+    Array [
+      Object {
+        "label": "foo",
+        "value": "bar",
+      },
+    ]
+  }
+  placeholder="placeholder"
+  sponsor={
+    <img
+      src="powered-by-google.png"
+    />
+  }
+/>
+`;

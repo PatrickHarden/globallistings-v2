@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Making an api request for property listings should dispatch correct actions for successful request 1`] = `
+Object {
+  "entities": Object {
+    "properties": Object {
+      "GB-ReapIT-cbrrps-CAL180002": Object {
+        "address": Object {
+          "Country": "GB",
+          "Line1": "Ariel House",
+          "Line2": "144 Vaughan Way",
+          "Locality": "London Dock",
+          "PostCode": "E1W",
+        },
+        "charges": Array [
+          Object {
+            "amount": 595,
+            "amountKind": undefined,
+            "chargeKind": "Rent",
+            "chargeModifier": undefined,
+            "currencyCode": "GBP",
+            "interval": "Weekly",
+            "onApplication": undefined,
+            "perUnit": "Whole",
+            "taxModifier": "None",
+            "year": undefined,
+          },
+        ],
+        "contacts": Array [
+          Object {
+            "email": "+44 (0) 20 7205 2201",
+            "name": "Canary Wharf Lettings",
+            "phone": "canarywharf.lettings@cbre.com",
+          },
+        ],
+        "description": Object {
+          "longDescription": "The long awaited London Dock development has finally arrived and you can at last secure your place in it. 
+
+Situated in the heart of the capital, just moments from the extremely desirable St Katharine Docks, this exciting new destination offers apartments and penthouses with the finest level of residents' facilities, a private suite of hotel style amenities including state-of- the-art gymnasium, swimming pool, squash court, virtual golf, treatment room, sauna, steam room, private screening room and residents lounge complimented by 24 hour concierge. 
+
+The brand new third floor one bedroom flat is finished to an immaculate standard. The open plan kitchen and living room is a great size and has attractive wooden flooring as well as all the modern conveniences. The floor to ceiling window allows plenty of light into the flat and access to a huge private balcony which overlooks the square. There is also a wall mounted flat screen television.
+
+The bedroom has a built in double wardrobe offering plenty of storage and meaning the ample space available is not compromised.
+
+The bathroom is a joy and has underfloor heating and there is storage in the hallway which houses the washer dryers and flat controls meaning that they do not hinder the aesthetic or practical enjoyment of the property.
+
+Surrounded by  beautifully landscaped public spaces, shops, bars and restaurants. Tower Hill underground is a short walk away meaning that there is easy access to the District and Circle Line. This makes trips to Chelsea, Victoria and Westminster a short affair. a Tower Hill Gateway DLR is also within walking distance so London Dock offers quick and easy access to the main financial centres of the City and Canary Wharf, as well as the exciting cultural and creative neighbourhoods of Shoreditch, Whitechapel and Bermondsey. The location will work fantastically for students and professionals.
+
+For more information about our fees please visit our web-site's 'Tenant Fees' page located under the Rent tab.",
+          "strapline": "An amazing one bed to rent in London&#039;s newest exclusive development, E1W",
+        },
+        "highlights": Array [
+          "Golf Room",
+          "Balcony",
+          "Gym",
+          "Furnished",
+          "Swimming Pool",
+          "24 hour Concierge",
+        ],
+        "id": "GB-ReapIT-cbrrps-CAL180002",
+        "info": Object {
+          "energyPerformance": Array [
+            "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/6db2de5d/CAL180002_05.png",
+          ],
+          "floorPlans": Array [
+            "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/39549074/CAL180002_22.jpg",
+          ],
+        },
+        "location": Object {
+          "lat": 51.505794,
+          "lon": -0.060134,
+        },
+        "numberOfBedrooms": 1,
+        "photos": Object {
+          "hero": Object {
+            "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_large.jpg",
+            "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_small.jpg",
+          },
+          "main": Array [
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07_Photo_2_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07_Photo_2_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/c48f7da7/CAL180002_09_Photo_3_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/c48f7da7/CAL180002_09_Photo_3_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/1bc45f97/CAL180002_08_Photo_4_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/1bc45f97/CAL180002_08_Photo_4_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/342bd9b2/CAL180002_10_Photo_5_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/342bd9b2/CAL180002_10_Photo_5_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/be916afa/CAL180002_11_Photo_6_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/be916afa/CAL180002_11_Photo_6_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/ddeac696/CAL180002_12_Photo_7_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/ddeac696/CAL180002_12_Photo_7_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cbb349dc/CAL180002_13_Photo_8_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cbb349dc/CAL180002_13_Photo_8_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/500cd96d/CAL180002_14_Photo_9_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/500cd96d/CAL180002_14_Photo_9_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e9e1ed42/CAL180002_15_Photo_10_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e9e1ed42/CAL180002_15_Photo_10_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/83d0dae7/CAL180002_16_Photo_11_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/83d0dae7/CAL180002_16_Photo_11_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/32a4fc4b/CAL180002_17_Photo_12_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/32a4fc4b/CAL180002_17_Photo_12_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/4ac16bc3/CAL180002_18_Photo_13_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/4ac16bc3/CAL180002_18_Photo_13_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cff83809/CAL180002_19_Photo_14_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cff83809/CAL180002_19_Photo_14_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e96bcaca/CAL180002_20_Photo_15_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e96bcaca/CAL180002_20_Photo_15_small.jpg",
+            },
+            Object {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/bfff6f9a/CAL180002_21_Photo_16_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/bfff6f9a/CAL180002_21_Photo_16_small.jpg",
+            },
+          ],
+        },
+      },
+    },
+  },
+  "result": Array [
+    "GB-ReapIT-cbrrps-CAL180002",
+  ],
+}
+`;

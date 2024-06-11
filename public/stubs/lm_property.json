@@ -1,0 +1,223 @@
+{
+  "Found": true,
+  "ElapsedTime": "00:00:00.0380000",
+  "Document": {
+    "Common.ActualAddress": {
+      "Common.Line1": "Bella Vista Place",
+      "Common.Line2": "3511 118 Avenue",
+      "Common.Locallity": "Edmonton",
+      "Common.Region": "Alberta",
+      "Common.PostalAddresses": [
+        {
+          "Common.Language": "en",
+          "Common.Line1": "Bella Vista Place",
+          "Common.Line2": "3511 118 Avenue",
+          "Common.Locallity": "Edmonton",
+          "Common.Region": "Alberta"
+        },
+        {
+          "Common.Language": "fr",
+          "Common.Line1": "Bella Vista Place",
+          "Common.Line2": "3511 118 Avenue",
+          "Common.Locallity": "Edmonton",
+          "Common.Region": "Alberta"
+        }
+      ],
+      "Common.Country": "CA",
+      "Common.PostCode": "T6L 3C1"
+    },
+    "Common.Aspects": ["isSale", "isLetting"],
+    "Common.Charges": [
+      {
+        "Common.ChargeKind": "NetRent",
+        "Common.OnApplication": true,
+        "Common.ChargeModifer": "PriceOnListing"
+      },
+      {
+        "Common.ChargeKind": "Rent",
+        "Common.OnApplication": true,
+        "Common.ChargeModifer": "PriceIsNegotiable"
+      },
+      {
+        "Common.ChargeKind": "SalePrice",
+        "Common.OnApplication": true,
+        "Common.ChargeModifer": "PriceIsNegotiable"
+      }
+    ],
+    "Common.ContactGroup": {
+      "Common.Address": {
+        "Common.Line1": "1253 René-Lévesque",
+        "Common.Locallity": "Montréal",
+        "Common.Region": "Québec",
+        "Common.PostalAddresses": [
+          {
+            "Common.Language": "en",
+            "Common.Line1": "1253 René-Lévesque",
+            "Common.Locallity": "Montréal",
+            "Common.Region": "Québec"
+          }
+        ],
+        "Common.Country": "CA",
+        "Common.PostCode": "H3B 4W8"
+      },
+      "Common.GroupType": "AreaOffice",
+      "Common.Contacts": [
+        {
+          "Common.EmailAddress": "lynn.johannesson@cbre.com",
+          "Common.TelephoneNumber": "514 849-6000",
+          "Common.AgentName": "Montréal"
+        }
+      ]
+    },
+    "Common.Coordinate": { "lat": 53.4471973, "lon": -113.390353 },
+    "Common.Created": "2017-12-20T11:09:20",
+    "Common.FloorsAndUnits": [
+      {
+        "Common.SubdivisionName": [
+          {
+            "Common.UnitDisplayName": "listing 1",
+            "Common.CultureCode": "en-CA",
+            "Common.Text": "listing 1"
+          },
+          {
+            "Common.UnitDisplayName": "",
+            "Common.CultureCode": "fr-CA",
+            "Common.Text": "listing 1"
+          }
+        ],
+        "Common.Unit.Status": "Available",
+        "Common.Unit.Use": "Other",
+        "Common.Charges": [
+          {
+            "Common.ChargeKind": "Rent",
+            "Common.OnApplication": true,
+            "Common.ChargeModifer": "PriceIsNegotiable"
+          },
+          {
+            "Common.ChargeKind": "SalePrice",
+            "Common.OnApplication": true,
+            "Common.ChargeModifer": "PriceIsNegotiable"
+          }
+        ]
+      },
+      {
+        "Common.SubdivisionName": [
+          {
+            "Common.UnitDisplayName": "listing 3",
+            "Common.CultureCode": "en-CA",
+            "Common.Text": "listing 3"
+          },
+          {
+            "Common.UnitDisplayName": "",
+            "Common.CultureCode": "fr-CA",
+            "Common.Text": "listing 3"
+          }
+        ],
+        "Common.Unit.Status": "Available",
+        "Common.Unit.Use": "Other",
+        "Common.Charges": [
+          {
+            "Common.ChargeKind": "Rent",
+            "Common.OnApplication": true,
+            "Common.ChargeModifer": "PriceIsNegotiable"
+          },
+          {
+            "Common.ChargeKind": "SalePrice",
+            "Common.OnApplication": true,
+            "Common.ChargeModifer": "PriceIsNegotiable"
+          }
+        ]
+      },
+      {
+        "Common.SubdivisionName": [
+          {
+            "Common.UnitDisplayName": "listing 2",
+            "Common.CultureCode": "en-CA",
+            "Common.Text": "listing 2"
+          },
+          {
+            "Common.UnitDisplayName": "",
+            "Common.CultureCode": "fr-CA",
+            "Common.Text": "listing 2"
+          }
+        ],
+        "Common.Unit.Status": "Available",
+        "Common.Unit.Use": "HealthAndPersonalCare",
+        "Common.Charges": [
+          {
+            "Common.ChargeKind": "Rent",
+            "Common.OnApplication": true,
+            "Common.ChargeModifer": "PriceIsNegotiable"
+          },
+          {
+            "Common.ChargeKind": "SalePrice",
+            "Common.OnApplication": true,
+            "Common.ChargeModifer": "PriceIsNegotiable"
+          }
+        ]
+      }
+    ],
+    "Common.GeoLocation": {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.4471973, -113.390353]
+      },
+      "Common.Exact": true
+    },
+    "Common.HomeSite": "ca-comm",
+    "Common.IsParent": true,
+    "Common.LastUpdated": "2018-02-20T21:26:16.2097335Z",
+    "Common.ListingCount": 3,
+    "Common.MaximumSize": [{ "Common.Size": 88888.0, "Common.Units": "sqft" }],
+    "Common.MinimumSize": [{ "Common.Size": 1000.0, "Common.Units": "sqft" }],
+    "Common.NumberOfBedrooms": 50,
+    "Common.NumberOfStoreys": 8,
+    "Common.PrimaryKey": "CA-Plus-207268",
+    "Common.PropertySubType": "MultifamilyLow-Rise",
+    "Common.PropertyTypes": ["Other"],
+    "Common.Sizes": [
+      {
+        "Common.SizeKind": "MinimumSize",
+        "Common.Dimensions": [
+          {
+            "Common.DimensionsUnits": "sqft",
+            "Common.Amount": 1000.0
+          }
+        ]
+      },
+      {
+        "Common.SizeKind": "MaximumSize",
+        "Common.Dimensions": [
+          {
+            "Common.DimensionsUnits": "sqft",
+            "Common.Amount": 88888.0
+          }
+        ]
+      }
+    ],
+    "Common.SourceLastupdated": "2018-02-05T08:00:13",
+    "Common.UsageType": "Residential",
+    "Dynamic.NewHome": false,
+    "Dynamic.UnderOffer": false,
+    "Dynamic.LetUnderOffer": false,
+    "Dynamic.Furnished": "unfurnished",
+    "Dynamic.HasSwimmingPool": false,
+    "Dynamic.HasGym": false,
+    "Dynamic.HasDoorkeeper": false,
+    "Dynamic.IsPenthouse": false,
+    "Dynamic.HasBalcony": false,
+    "Dynamic.HasParking": false,
+    "Dynamic.HasLift": false,
+    "Dynamic.HasGarden": false,
+    "Dynamic.DevelopmentOpportunity": false,
+    "Dynamic.LettingCharge": null,
+    "Dynamic.NetCharge": null,
+    "Dynamic.SalePrice": null,
+    "Dynamic.MinArea": 1000.0,
+    "Dynamic.TotalArea": null,
+    "Dynamic.PrimaryImage": null,
+    "Common.LastProcessed": "2018-02-20T21:28:03.2755232Z",
+    "Dynamic.MinimumSize": [{ "Common.Size": 1000.0, "Common.Units": "sqft" }],
+    "Dynamic.MaximumSize": [{ "Common.Size": 88888.0, "Common.Units": "sqft" }]
+  }
+}

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handle SUCCESS action should correctly handle single SUCCESS 1`] = `
+Object {
+  "MOCK_HASH": Array [
+    "P1",
+  ],
+}
+`;
+
+exports[`handle SUCCESS action should overwrite old properties with new 1`] = `
+Object {
+  "MOCK_HASH": Array [
+    "P2",
+  ],
+}
+`;
+
+exports[`handle SUCCESS action should overwrite old properties with same id 1`] = `
+Object {
+  "MOCK_HASH": Array [
+    "P1",
+  ],
+}
+`;

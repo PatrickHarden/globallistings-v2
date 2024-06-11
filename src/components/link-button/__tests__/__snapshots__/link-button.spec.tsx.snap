@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components link-button should render correctly 1`] = `
+<styled.a
+  href="http://www.google.com"
+/>
+`;
+
+exports[`components link-button should render correctly with an icon 1`] = `
+<styled.a
+  href="http://www.google.com"
+>
+  <ArrowRight />
+</styled.a>
+`;

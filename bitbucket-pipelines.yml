@@ -1,0 +1,146 @@
+image: agency365/bitbucket-python-pip-yarn
+clone:
+  depth: 1
+pipelines:
+  branches:
+    default:
+      - step:
+          name: check it builds
+          caches:
+            - node
+          script:
+            - yarn
+            - yarn build
+      - step:
+          name: Run tests
+          caches:
+            - node
+          script:
+            - yarn test:ci
+    release/*:
+      - step:
+          name: Install dependencies
+          caches:
+            - node
+          script:
+            - yarn
+      - parallel:
+          - step:
+              name: Run tests
+              caches:
+                - node
+              script:
+                - yarn test:ci
+                - python ./pipeline_scripts/pipeline-functions.py --Type UNIT_TESTS
+          - step:
+              name: build it
+              caches:
+                - node
+              script:
+                - echo $PUBLIC_URL
+                - yarn build
+                - python ./pipeline_scripts/pipeline-functions.py --Type CODE_BUILD
+              artifacts:
+                - build/**
+      - step:
+          name: Deploy to UAT
+          image: microsoft/azure-cli:latest
+          deployment: staging
+          script:
+            - chmod +x ./pipeline_scripts/deploy-azure-storage.py
+            - python3 pipeline_scripts/deploy-azure-storage.py --AzureName ${AZURE_STORAGE_ACCOUNT_UAT_EUN} --AzureKey ${AZURE_STORAGE_ACCESS_KEY_UAT_EUN} --AzureContainer ${AZURE_UAT_CONTAINER} --AzureContainerFolder src
+            - python3 pipeline_scripts/deploy-azure-storage.py --AzureName ${AZURE_STORAGE_ACCOUNT_UAT_EUW} --AzureKey ${AZURE_STORAGE_ACCESS_KEY_UAT_EUW} --AzureContainer ${AZURE_UAT_CONTAINER} --AzureContainerFolder src
+            - python3 ./pipeline_scripts/pipeline-functions.py --Type CD_STAGING
+    develop:
+      - step:
+          name: Install dependencies
+          caches:
+            - node
+          script:
+            - yarn
+      - parallel:
+          - step:
+              name: Run tests
+              caches:
+                - node
+              script:
+                - yarn test:ci
+          - step:
+              name: build it
+              caches:
+                - node
+              script:
+                - PUBLIC_URL=https://devlistingsearchcbreeun.blob.core.windows.net/cbre-search-spa-v2/src/
+                - yarn build
+              artifacts:
+                - build/**
+      - step:
+          name: Deploy to DEV
+          image: microsoft/azure-cli:latest
+          deployment: test
+          script:
+            - pip install requests
+            - chmod +x ./pipeline_scripts/deploy-azure-storage.py
+            - python3 pipeline_scripts/deploy-azure-storage.py --AzureName ${AZURE_STORAGE_ACCOUNT_DEV_EUN} --AzureKey ${AZURE_STORAGE_ACCESS_KEY_DEV_EUN} --AzureContainer ${AZURE_DEV_CONTAINER} --AzureContainerFolder src
+            - python3 ./pipeline_scripts/pipeline-functions.py --Type CD_STAGING
+    master:
+      - step:
+          name: Install dependencies
+          caches:
+            - node
+          script:
+            - yarn
+      - parallel:
+          - step:
+              name: Run tests
+              caches:
+                - node
+              script:
+                - yarn test:ci
+                - python ./pipeline_scripts/pipeline-functions.py --Type UNIT_TESTS
+          - step:
+              name: build it
+              caches:
+                - node
+              script:
+                - yarn build
+                - python ./pipeline_scripts/pipeline-functions.py --Type CODE_BUILD
+              artifacts:
+                - build/**
+      - step:
+          name: Deploy to Azure PROD
+          image: microsoft/azure-cli:latest
+          deployment: production
+          trigger: manual
+          script:
+            - pip install requests
+            - chmod +x ./pipeline_scripts/deploy-azure-storage.py
+            - python3 pipeline_scripts/deploy-azure-storage.py --AzureName ${AZURE_STORAGE_ACCOUNT_PROD_EUN} --AzureKey ${AZURE_STORAGE_ACCESS_KEY_PROD_EUN} --AzureContainer ${AZURE_PROD_CONTAINER} --AzureContainerFolder src
+            - python3 pipeline_scripts/deploy-azure-storage.py --AzureName ${AZURE_STORAGE_ACCOUNT_PROD_EUW} --AzureKey ${AZURE_STORAGE_ACCESS_KEY_PROD_EUW} --AzureContainer ${AZURE_PROD_CONTAINER} --AzureContainerFolder src
+            - python3 ./pipeline_scripts/pipeline-functions.py --Type CD_PROD
+  custom:
+    deployToDev:
+      - step:
+        name: Install dependencies
+        caches:
+          - node
+        script:
+          - yarn
+      - step:
+          name: check it builds
+          caches:
+            - node
+          script:
+            - yarn build
+            - python ./pipeline_scripts/pipeline-functions.py --Type CODE_BUILD
+          artifacts:
+            - build/**
+      - step:
+          name: Deploy to DEV
+          image: microsoft/azure-cli:latest
+          deployment: test
+          script:
+            - pip install requests
+            - chmod +x ./pipeline_scripts/deploy-azure-storage.py
+            - python3 pipeline_scripts/deploy-azure-storage.py --AzureName ${AZURE_STORAGE_ACCOUNT_DEV_EUN} --AzureKey ${AZURE_STORAGE_ACCESS_KEY_DEV_EUN} --AzureContainer ${AZURE_DEV_CONTAINER} --AzureContainerFolder src
+            - python3 ./pipeline_scripts/pipeline-functions.py --Type CD_STAGING

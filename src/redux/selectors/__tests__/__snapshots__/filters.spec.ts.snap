@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly map radius param 1`] = `
+Array [
+  Object {
+    "items": Array [
+      Object {
+        "label": "None",
+        "value": "",
+      },
+      Object {
+        "label": "One",
+        "value": "1",
+      },
+      Object {
+        "label": "Two",
+        "value": "2",
+      },
+    ],
+    "name": "radius",
+    "options": Array [
+      Object {
+        "label": "None",
+        "value": "",
+      },
+      Object {
+        "label": "One",
+        "value": "1",
+      },
+      Object {
+        "label": "Two",
+        "value": "2",
+      },
+    ],
+    "selectedItem": undefined,
+    "type": "select",
+  },
+]
+`;
+
+exports[`should correctly map radius param to an option 1`] = `
+Array [
+  Object {
+    "items": Array [
+      Object {
+        "label": "None",
+        "value": "",
+      },
+      Object {
+        "label": "One",
+        "value": "1",
+      },
+      Object {
+        "label": "Two",
+        "value": "2",
+      },
+    ],
+    "name": "radius",
+    "options": Array [
+      Object {
+        "label": "None",
+        "value": "",
+      },
+      Object {
+        "label": "One",
+        "value": "1",
+      },
+      Object {
+        "label": "Two",
+        "value": "2",
+      },
+    ],
+    "selectedItem": Object {
+      "label": "One",
+      "value": "1",
+    },
+    "type": "select",
+  },
+]
+`;
+
+exports[`should correctly map range param to an option 1`] = `
+Array [
+  Object {
+    "label": undefined,
+    "max": Object {
+      "items": Array [
+        Object {
+          "label": "None",
+          "type": "max",
+          "value": "",
+        },
+        Object {
+          "label": "Three",
+          "type": "max",
+          "value": "3",
+        },
+        Object {
+          "label": "Four",
+          "type": "max",
+          "value": "4",
+        },
+      ],
+      "selectedItem": undefined,
+    },
+    "min": Object {
+      "items": Array [
+        Object {
+          "label": "None",
+          "type": "min",
+          "value": "",
+        },
+        Object {
+          "label": "One",
+          "type": "min",
+          "value": "1",
+        },
+        Object {
+          "label": "Two",
+          "type": "min",
+          "value": "2",
+        },
+      ],
+      "selectedItem": Object {
+        "label": "One",
+        "type": "min",
+        "value": "1",
+      },
+    },
+    "modifier": undefined,
+    "name": "minValue|maxValue",
+    "placement": undefined,
+    "range": "range",
+    "type": "range",
+  },
+]
+`;
+
+exports[`should handle unmatched query correctly 1`] = `
+Array [
+  Object {
+    "items": Array [
+      Object {
+        "label": "None",
+        "value": "",
+      },
+      Object {
+        "label": "One",
+        "value": "1",
+      },
+      Object {
+        "label": "Two",
+        "value": "2",
+      },
+    ],
+    "name": "radius",
+    "options": Array [
+      Object {
+        "label": "None",
+        "value": "",
+      },
+      Object {
+        "label": "One",
+        "value": "1",
+      },
+      Object {
+        "label": "Two",
+        "value": "2",
+      },
+    ],
+    "selectedItem": undefined,
+    "type": "select",
+  },
+]
+`;

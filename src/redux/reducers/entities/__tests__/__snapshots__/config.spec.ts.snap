@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`_default should handle FetchConfigSuccessAction action  1`] = `
+Object {
+  "i18n": Object {
+    "one": "uno",
+  },
+  "searchConfig": Object {
+    "searchResultsPage": "zap",
+  },
+}
+`;

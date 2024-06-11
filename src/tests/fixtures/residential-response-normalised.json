@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "properties": {
+      "GB-ReapIT-cbrrps-CAL180002": {
+        "address": {
+          "line1": "Ariel House",
+          "line2": "144 Vaughan Way",
+          "locality": "London Dock",
+          "postcode": "E1W"
+        },
+        "contacts": [
+          {
+            "email": "+44 (0) 20 7205 2201",
+            "name": "Canary Wharf Lettings",
+            "phone": "canarywharf.lettings@cbre.com"
+          }
+        ],
+        "description": {
+          "longDescription": "The long awaited London Dock development has finally arrived and you can at last secure your place in it. For more information about our fees please visit our web-site's 'Tenant Fees' page located under the Rent tab.",
+          "strapline": "An amazing one bed to rent in London&#039;s newest exclusive development, E1W"
+        },
+        "highlights": [
+          "Golf Room",
+          "Balcony",
+          "Gym",
+          "Furnished",
+          "Swimming Pool",
+          "24 hour Concierge"
+        ],
+        "id": "GB-ReapIT-cbrrps-CAL180002",
+        "info": {
+          "energyPerformance": [
+            "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/6db2de5d/CAL180002_05.png"
+          ],
+          "floorPlans": [
+            "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/39549074/CAL180002_22.jpg"
+          ]
+        },
+        "location": {
+          "lat": 51.505794,
+          "lon": -0.060134
+        },
+        "numberOfBedrooms": 1,
+        "photos": {
+          "hero": {
+            "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_large.jpg",
+            "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_small.jpg"
+          },
+          "main": [
+            {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_small.jpg"
+            },
+            {
+              "large": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07_Photo_2_large.jpg",
+              "small": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07_Photo_2_small.jpg"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "result": ["GB-ReapIT-cbrrps-CAL180002"]
+}

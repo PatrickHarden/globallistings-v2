@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters should render correctly 1`] = `<styled.div />`;
+
+exports[`Filters should render correctly with a placement specified 1`] = `
+<styled.div>
+  <SelectFilter
+    displayLabel={true}
+    filter={
+      Object {
+        "items": Array [
+          Object {
+            "default": false,
+            "label": "bar",
+            "value": "foo",
+          },
+        ],
+        "label": "select filter",
+        "modifier": "query",
+        "name": "select",
+        "placement": "lm_primaryFilter",
+        "type": "select",
+      }
+    }
+    inline={false}
+    key="select-select"
+  />
+</styled.div>
+`;
+
+exports[`Filters should render correctly with filter labels 1`] = `
+<styled.div>
+  <SelectFilter
+    displayLabel={true}
+    filter={
+      Object {
+        "items": Array [
+          Object {
+            "default": false,
+            "label": "bar",
+            "value": "foo",
+          },
+        ],
+        "label": "select filter",
+        "modifier": "query",
+        "name": "select",
+        "placement": "lm_primaryFilter",
+        "type": "select",
+      }
+    }
+    inline={false}
+    key="select-select"
+  />
+  <RangeFilter
+    displayLabel={true}
+    filter={
+      Object {
+        "label": "select filter",
+        "max": Object {
+          "items": Array [],
+        },
+        "min": Object {
+          "items": Array [],
+        },
+        "modifier": "query",
+        "name": "range",
+        "placement": "lm_secondaryFilter",
+        "type": "range",
+      }
+    }
+    handleChange={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "select",
+          ],
+          Array [
+            "select",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    inline={false}
+    key="range-range"
+  />
+</styled.div>
+`;
+
+exports[`Filters should render correctly with filters 1`] = `
+<styled.div>
+  <SelectFilter
+    displayLabel={false}
+    filter={
+      Object {
+        "items": Array [
+          Object {
+            "default": false,
+            "label": "bar",
+            "value": "foo",
+          },
+        ],
+        "label": "select filter",
+        "modifier": "query",
+        "name": "select",
+        "placement": "lm_primaryFilter",
+        "type": "select",
+      }
+    }
+    inline={false}
+    key="select-select"
+  />
+  <RangeFilter
+    displayLabel={false}
+    filter={
+      Object {
+        "label": "select filter",
+        "max": Object {
+          "items": Array [],
+        },
+        "min": Object {
+          "items": Array [],
+        },
+        "modifier": "query",
+        "name": "range",
+        "placement": "lm_secondaryFilter",
+        "type": "range",
+      }
+    }
+    handleChange={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "select",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    inline={false}
+    key="range-range"
+  />
+</styled.div>
+`;

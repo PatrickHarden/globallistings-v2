@@ -1,0 +1,100 @@
+# Global Listings SPA v2
+# Build and deploy to storage accounts
+# https://docs.microsoft.com/en-us/azure/devops/pipelines/release/variables?view=azure-devops&tabs=batch#artifact-variables
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - master
+      - develop
+      - release/*
+
+pr: none
+
+name: $(MajorMinorVersion).$(Rev:r)
+
+pool:
+  name: "Global Listings Ubuntu"
+
+steps:
+  - script: |
+      pip install --upgrade setuptools
+      pip install pylint
+      pip install azure-storage-blob
+      pip install pep8
+    displayName: "Install Python dependencies"
+  - task: YarnInstaller@2
+    inputs:
+      versionSpec: "1.x"
+      checkLatest: true
+    displayName: "Install Yarn"
+
+  - task: NodeTool@0
+    inputs:
+      versionSpec: "14.x"
+    displayName: "Install Node.js"
+
+  - script: |
+      echo "Node version "
+      node -v
+      echo "NPM version "
+      npm -v
+    displayName: "Echo node version"
+
+  - script: |
+      yarn
+    displayName: "Install packages"
+  - script: |
+      echo '##vso[task.setvariable variable=PUBLIC_URL]/resources/cbre-search-spa-v2/src/'
+    displayName: "Set resource path"
+  # - task: SonarQubePrepare@4
+  #   inputs:
+  #     SonarQube: "GlobalListings-SonarQube"
+  #     scannerMode: "CLI"
+  #     configMode: "manual"
+  #     cliProjectKey: "GlobalListings-Search-SPA-V2"
+  #     cliProjectName: "GlobalListings-Search-SPA-V2"
+  #     cliSources: "."
+  #     extraProperties: "sonar.exclusions=src/public/**,**/*.css,**/*.less,node_modules/**,src/assets/**,**/__tests__/**"
+
+  # - task: SonarQubeAnalyze@4
+  #   displayName: "Run Static Code Analysis"
+
+  - script: |
+      yarn build
+      #python ./pipeline_scripts/pipeline-functions.py --Type CODE_BUILD
+    displayName: "Build app"
+  - task: CopyFiles@2
+    inputs:
+      SourceFolder: ""
+      Contents: "bootstrap.js"
+      TargetFolder: "$(Build.ArtifactStagingDirectory)/build"
+      CleanTargetFolder: false
+
+  - task: CopyFiles@2
+    inputs:
+      SourceFolder: ""
+      Contents: "deploy-azure-storage.py"
+      TargetFolder: "$(Build.ArtifactStagingDirectory)/build"
+      CleanTargetFolder: false
+
+  - task: CopyFiles@2
+    inputs:
+      SourceFolder: "build"
+      Contents: "**"
+      TargetFolder: "$(Build.ArtifactStagingDirectory)/build"
+      CleanTargetFolder: false
+
+  - task: CopyFiles@2
+    inputs:
+      SourceFolder: "pipeline_scripts"
+      Contents: "**"
+      TargetFolder: "$(Build.ArtifactStagingDirectory)/pipeline_scripts"
+      CleanTargetFolder: false
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: "$(Build.ArtifactStagingDirectory)"
+      ArtifactName: "staging"
+      publishLocation: "Container"

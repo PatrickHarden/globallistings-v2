@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should create correct action 1`] = `
+Object {
+  "meta": undefined,
+  "payload": Object {
+    "foo": "zap",
+  },
+  "type": "CHANGE_SEARCH_FILTER",
+}
+`;
+
+exports[`should create correct action 2`] = `
+Object {
+  "meta": undefined,
+  "payload": "zap",
+  "type": "SET_SEARCH_LOCATION",
+}
+`;

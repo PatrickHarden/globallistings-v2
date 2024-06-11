@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components string-highlighter should render correctly 1`] = `
+<span
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "This is <strong>a str</strong>ing",
+    }
+  }
+/>
+`;
+
+exports[`components string-highlighter should render correctly when disabled 1`] = `
+<span>
+  This is a string
+</span>
+`;
+
+exports[`components string-highlighter should render correctly when there is no match 1`] = `
+<span
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "This is a string",
+    }
+  }
+/>
+`;
+
+exports[`components string-highlighter should render correctly with a custom class 1`] = `
+<span
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "This is <strong class=a-class>a str</strong>ing",
+    }
+  }
+/>
+`;
+
+exports[`components string-highlighter should render correctly with a custom element 1`] = `
+<span
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "This is <span>a str</span>ing",
+    }
+  }
+/>
+`;

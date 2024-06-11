@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convert should correctly convert i18n 1`] = `
+Object {
+  "i18n": Object {
+    "five": "{cinco}",
+    "four": "{cuatro}",
+    "one": "uno",
+    "three": "{three} - tres {three}, ({three})",
+    "two": "{two} - dos",
+  },
+}
+`;
+
+exports[`convert should correctly overwrite defaults 1`] = `
+Object {
+  "i18n": Object {},
+  "searchConfig": Object {
+    "hideSearchToBuy": true,
+    "searchBias": Object {
+      "lat": "0",
+      "lon": "0",
+    },
+    "searchHeader": Object {
+      "searchHeaderTitleText": "zap",
+    },
+  },
+}
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyCard should render correctly 1`] = `
+<styled.div
+  clickable={false}
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  selected={false}
+>
+  <Styled(ResponsiveImage)
+    src="/img"
+  />
+  <styled.div>
+    <styled.span>
+      1 Any Road, Any WHere
+    </styled.span>
+    <styled.div>
+      <styled.span>
+        £100
+      </styled.span>
+      <styled.span>
+        Massive
+      </styled.span>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`PropertyCard should render correctly with a click event 1`] = `
+<styled.div
+  clickable={true}
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  selected={false}
+>
+  <Styled(ResponsiveImage)
+    src="/img"
+  />
+  <styled.div>
+    <styled.span>
+      1 Any Road, Any WHere
+    </styled.span>
+    <styled.div>
+      <styled.span>
+        £100
+      </styled.span>
+      <styled.span>
+        Massive
+      </styled.span>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

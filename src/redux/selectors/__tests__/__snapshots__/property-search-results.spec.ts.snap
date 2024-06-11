@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return correct data 1`] = `
+Array [
+  Object {
+    "address": "London Str 12 Block A",
+    "id": undefined,
+    "imgUrl": "mock_url",
+    "location": undefined,
+    "price": "Price On Application",
+    "selected": true,
+    "size": undefined,
+  },
+  Object {
+    "address": "London Str 12 Block A",
+    "id": undefined,
+    "imgUrl": "mock_url",
+    "location": undefined,
+    "price": "Price On Application",
+    "selected": true,
+    "size": "200sqft",
+  },
+  Object {
+    "address": "London Str 12 Block A",
+    "id": undefined,
+    "imgUrl": "mock_url",
+    "location": undefined,
+    "price": "200/sqft/year",
+    "selected": true,
+    "size": "200sqft - 3000sqft",
+  },
+]
+`;
+
+exports[`should return correct data with a highlighted property 1`] = `
+Array [
+  Object {
+    "address": "London Str 12 Block A",
+    "id": undefined,
+    "imgUrl": "mock_url",
+    "location": undefined,
+    "price": "Price On Application",
+    "selected": false,
+    "size": undefined,
+  },
+  Object {
+    "address": "London Str 12 Block A",
+    "id": undefined,
+    "imgUrl": "mock_url",
+    "location": undefined,
+    "price": "Price On Application",
+    "selected": false,
+    "size": "200sqft",
+  },
+  Object {
+    "address": "London Str 12 Block A",
+    "id": undefined,
+    "imgUrl": "mock_url",
+    "location": undefined,
+    "price": "200/sqft/year",
+    "selected": false,
+    "size": "200sqft - 3000sqft",
+  },
+]
+`;
+
+exports[`should return correct data with a selected property 1`] = `
+Array [
+  Object {
+    "address": "London Str 12 Block A",
+    "id": undefined,
+    "imgUrl": "mock_url",
+    "location": undefined,
+    "price": "Price On Application",
+    "selected": true,
+    "size": undefined,
+  },
+  Object {
+    "address": "London Str 12 Block A",
+    "id": undefined,
+    "imgUrl": "mock_url",
+    "location": undefined,
+    "price": "Price On Application",
+    "selected": false,
+    "size": "200sqft",
+  },
+  Object {
+    "address": "London Str 12 Block A",
+    "id": undefined,
+    "imgUrl": "mock_url",
+    "location": undefined,
+    "price": "200/sqft/year",
+    "selected": false,
+    "size": "200sqft - 3000sqft",
+  },
+]
+`;

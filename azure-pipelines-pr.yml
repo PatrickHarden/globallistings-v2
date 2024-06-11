@@ -1,0 +1,64 @@
+# Global Listings SPA v2 PR build 2
+# https://docs.microsoft.com/en-us/azure/devops/pipelines/release/variables?view=azure-devops&tabs=batch#artifact-variables
+
+trigger: none
+
+pr:
+  - develop
+
+name: pr$(System.PullRequest.PullRequestNumber)-r$(Rev:r)
+
+pool:
+  name: "Global Listings Ubuntu"
+
+steps:
+  # - bash: |
+  #     title=$(curl -s -u ${USER}:${PAT} -X GET "https://dev.azure.com/cbre/GlobalListings/_apis/build/builds/${BUILD_BUILDID}?api-version=5.1" | jq '.triggerInfo["pr.title"]')
+
+  #     if echo "$title" | grep AB#[0-9]+ -E; then
+  #       exit 0
+  #     else
+  #       echo "A work item link could not be found in the PR title. Please follow the AB#{ID} convention: https://docs.microsoft.com/en-us/azure/devops/boards/github/link-to-from-github?view=azure-devops"
+  #       exit 1
+  #     fi
+  #   displayName: 'Ensure work item in PR title'
+  #   env:
+  #     PAT: $(PAT)
+
+  - script: printenv
+    displayName: "Print environment variables"
+
+  - task: YarnInstaller@2
+    inputs:
+      versionSpec: "1.x"
+      checkLatest: true
+    displayName: "Install Yarn"
+
+  - task: NodeTool@0
+    inputs:
+      versionSpec: "14.x"
+    displayName: "Install Node.js"
+
+  - script: |
+      npm install -g n -f
+      n latest      
+    displayName: "Update nodejs"
+
+  - script: |
+      echo "Node version "
+      node -v
+      echo "NPM version "
+      npm -v
+    displayName: "Echo node version"
+
+  - script: |
+      yarn
+    displayName: "Install packages"
+
+  - script: |
+      echo '##vso[task.setvariable variable=PUBLIC_URL]/resources/cbre-search-spa-v2/src/'
+    displayName: "Set resource path"
+
+  - script: |
+      yarn build
+    displayName: "Build app"

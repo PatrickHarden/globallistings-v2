@@ -1,0 +1,772 @@
+{
+  "Found": true,
+  "DocumentCount": 1,
+  "Documents": [
+    [
+      {
+        "Common.ActualAddress": {
+          "Common.Line1": "Ariel House",
+          "Common.Line2": "144 Vaughan Way",
+          "Common.Locallity": "London Dock",
+          "Common.PostalAddresses": [
+            {
+              "Common.Language": "en",
+              "Common.Line1": "Ariel House",
+              "Common.Line2": "144 Vaughan Way",
+              "Common.Locallity": "London Dock"
+            }
+          ],
+          "Common.Country": "GB",
+          "Common.PostCode": "E1W"
+        },
+        "Common.Aspects": [
+          "isFurnished",
+          "hasLift",
+          "hasSwimmingPool",
+          "hasGym",
+          "hasDoorkeeper",
+          "hasBalcony",
+          "isNewHome",
+          "isLetting"
+        ],
+        "Common.Availability": {
+          "Common.AvailabilityKind": "AvailableFromKnownDate",
+          "Common.AvailabilityDate": "2017-08-20"
+        },
+        "Common.AvailableFrom": "2017-08-20T00:00:00",
+        "Common.Charges": [
+          {
+            "Common.ChargeKind": "Rent",
+            "Common.CurrencyCode": "GBP",
+            "Common.Interval": "Weekly",
+            "Common.Amount": 595.0,
+            "Common.PerUnit": "Whole",
+            "Common.TaxModifer": "None",
+            "Common.Exact": true
+          }
+        ],
+        "Common.ContactGroup": {
+          "Common.GroupName": [
+            {
+              "Common.CultureCode": "en-GB",
+              "Common.Text": "Canary Wharf Lettings"
+            }
+          ],
+          "Common.Address": {
+            "Common.Line1": "22, Millennium Harbour",
+            "Common.Line2": "Westferry Road",
+            "Common.Line3": "London",
+            "Common.Locallity": "London",
+            "Common.PostalAddresses": [
+              {
+                "Common.Language": "en",
+                "Common.Line1": "22, Millennium Harbour",
+                "Common.Line2": "Westferry Road",
+                "Common.Line3": "London",
+                "Common.Locallity": "London"
+              }
+            ],
+            "Common.Country": "GB",
+            "Common.PostCode": "E14 8LW"
+          },
+          "Common.GroupType": "AreaOffice",
+          "Common.Contacts": [
+            {
+              "Common.EmailAddress": "canarywharf.lettings@cbre.com",
+              "Common.TelephoneNumber": "+44 (0) 20 7205 2201",
+              "Common.AgentName": "Canary Wharf Lettings"
+            }
+          ]
+        },
+        "Common.Coordinate": {
+          "lat": 51.505794,
+          "lon": -0.060134
+        },
+        "Common.EnergyPerformanceInformation": [
+          {
+            "Common.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/6db2de5d/CAL180002_05.png",
+            "Common.UriExternal": false,
+            "Common.CultureCode": "en-GB"
+          }
+        ],
+        "Common.FloorPlans": [
+          {
+            "Common.ImageCaption": "Floorplan",
+            "Common.ImageResources": [
+              {
+                "Common.Image.Height": 1500,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/39549074/CAL180002_22.jpg",
+                "Common.Image.Width": 1059
+              }
+            ]
+          }
+        ],
+        "Common.GeoLocation": {
+          "geometry": {
+            "type": "Point",
+            "coordinates": [51.505794, -0.060134]
+          },
+          "Common.Exact": true
+        },
+        "Common.Highlights": [
+          {
+            "Common.Highlight": [
+              {
+                "Common.CultureCode": "en-GB",
+                "Common.Text": "Golf Room"
+              }
+            ]
+          },
+          {
+            "Common.Highlight": [
+              {
+                "Common.CultureCode": "en-GB",
+                "Common.Text": "Balcony"
+              }
+            ]
+          },
+          {
+            "Common.Highlight": [
+              {
+                "Common.CultureCode": "en-GB",
+                "Common.Text": "Gym"
+              }
+            ]
+          },
+          {
+            "Common.Highlight": [
+              {
+                "Common.CultureCode": "en-GB",
+                "Common.Text": "Furnished"
+              }
+            ]
+          },
+          {
+            "Common.Highlight": [
+              {
+                "Common.CultureCode": "en-GB",
+                "Common.Text": "Swimming Pool"
+              }
+            ]
+          },
+          {
+            "Common.Highlight": [
+              {
+                "Common.CultureCode": "en-GB",
+                "Common.Text": "24 hour Concierge"
+              }
+            ]
+          }
+        ],
+        "Common.HomeSite": "uk-resi",
+        "Common.LastUpdated": "2018-10-31T17:16:22.8837386Z",
+        "Common.LongDescription": [
+          {
+            "Common.CultureCode": "en-GB",
+            "Common.Text": "The long awaited London Dock development has finally arrived and you can at last secure your place in it. \n\nSituated in the heart of the capital, just moments from the extremely desirable St Katharine Docks, this exciting new destination offers apartments and penthouses with the finest level of residents' facilities, a private suite of hotel style amenities including state-of- the-art gymnasium, swimming pool, squash court, virtual golf, treatment room, sauna, steam room, private screening room and residents lounge complimented by 24 hour concierge. \n\nThe brand new third floor one bedroom flat is finished to an immaculate standard. The open plan kitchen and living room is a great size and has attractive wooden flooring as well as all the modern conveniences. The floor to ceiling window allows plenty of light into the flat and access to a huge private balcony which overlooks the square. There is also a wall mounted flat screen television.\n\nThe bedroom has a built in double wardrobe offering plenty of storage and meaning the ample space available is not compromised.\n\nThe bathroom is a joy and has underfloor heating and there is storage in the hallway which houses the washer dryers and flat controls meaning that they do not hinder the aesthetic or practical enjoyment of the property.\n\nSurrounded by  beautifully landscaped public spaces, shops, bars and restaurants. Tower Hill underground is a short walk away meaning that there is easy access to the District and Circle Line. This makes trips to Chelsea, Victoria and Westminster a short affair. a Tower Hill Gateway DLR is also within walking distance so London Dock offers quick and easy access to the main financial centres of the City and Canary Wharf, as well as the exciting cultural and creative neighbourhoods of Shoreditch, Whitechapel and Bermondsey. The location will work fantastically for students and professionals.\n\nFor more information about our fees please visit our web-site's 'Tenant Fees' page located under the Rent tab."
+          }
+        ],
+        "Common.NumberOfBedrooms": 1,
+        "Common.Photos": [
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07_Photo_2_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07_Photo_2_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07_Photo_2_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cdc6e57e/CAL180002_07.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/c48f7da7/CAL180002_09.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/c48f7da7/CAL180002_09.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/c48f7da7/CAL180002_09_Photo_3_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/c48f7da7/CAL180002_09.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/c48f7da7/CAL180002_09_Photo_3_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/c48f7da7/CAL180002_09.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/c48f7da7/CAL180002_09_Photo_3_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/c48f7da7/CAL180002_09.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/1bc45f97/CAL180002_08.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/1bc45f97/CAL180002_08.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/1bc45f97/CAL180002_08_Photo_4_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/1bc45f97/CAL180002_08.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/1bc45f97/CAL180002_08_Photo_4_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/1bc45f97/CAL180002_08.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/1bc45f97/CAL180002_08_Photo_4_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/1bc45f97/CAL180002_08.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/342bd9b2/CAL180002_10.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/342bd9b2/CAL180002_10.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/342bd9b2/CAL180002_10_Photo_5_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/342bd9b2/CAL180002_10.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/342bd9b2/CAL180002_10_Photo_5_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/342bd9b2/CAL180002_10.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/342bd9b2/CAL180002_10_Photo_5_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/342bd9b2/CAL180002_10.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/be916afa/CAL180002_11.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/be916afa/CAL180002_11.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/be916afa/CAL180002_11_Photo_6_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/be916afa/CAL180002_11.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/be916afa/CAL180002_11_Photo_6_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/be916afa/CAL180002_11.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/be916afa/CAL180002_11_Photo_6_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/be916afa/CAL180002_11.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/ddeac696/CAL180002_12.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/ddeac696/CAL180002_12.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/ddeac696/CAL180002_12_Photo_7_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/ddeac696/CAL180002_12.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/ddeac696/CAL180002_12_Photo_7_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/ddeac696/CAL180002_12.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/ddeac696/CAL180002_12_Photo_7_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/ddeac696/CAL180002_12.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cbb349dc/CAL180002_13.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cbb349dc/CAL180002_13.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cbb349dc/CAL180002_13_Photo_8_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cbb349dc/CAL180002_13.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cbb349dc/CAL180002_13_Photo_8_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cbb349dc/CAL180002_13.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cbb349dc/CAL180002_13_Photo_8_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cbb349dc/CAL180002_13.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/500cd96d/CAL180002_14.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/500cd96d/CAL180002_14.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/500cd96d/CAL180002_14_Photo_9_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/500cd96d/CAL180002_14.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/500cd96d/CAL180002_14_Photo_9_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/500cd96d/CAL180002_14.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/500cd96d/CAL180002_14_Photo_9_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/500cd96d/CAL180002_14.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e9e1ed42/CAL180002_15.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/e9e1ed42/CAL180002_15.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e9e1ed42/CAL180002_15_Photo_10_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/e9e1ed42/CAL180002_15.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e9e1ed42/CAL180002_15_Photo_10_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/e9e1ed42/CAL180002_15.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e9e1ed42/CAL180002_15_Photo_10_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/e9e1ed42/CAL180002_15.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/83d0dae7/CAL180002_16.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/83d0dae7/CAL180002_16.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/83d0dae7/CAL180002_16_Photo_11_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/83d0dae7/CAL180002_16.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/83d0dae7/CAL180002_16_Photo_11_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/83d0dae7/CAL180002_16.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/83d0dae7/CAL180002_16_Photo_11_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/83d0dae7/CAL180002_16.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/32a4fc4b/CAL180002_17.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/32a4fc4b/CAL180002_17.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/32a4fc4b/CAL180002_17_Photo_12_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/32a4fc4b/CAL180002_17.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/32a4fc4b/CAL180002_17_Photo_12_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/32a4fc4b/CAL180002_17.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/32a4fc4b/CAL180002_17_Photo_12_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/32a4fc4b/CAL180002_17.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/4ac16bc3/CAL180002_18.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/4ac16bc3/CAL180002_18.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/4ac16bc3/CAL180002_18_Photo_13_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/4ac16bc3/CAL180002_18.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/4ac16bc3/CAL180002_18_Photo_13_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/4ac16bc3/CAL180002_18.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/4ac16bc3/CAL180002_18_Photo_13_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/4ac16bc3/CAL180002_18.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cff83809/CAL180002_19.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cff83809/CAL180002_19.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cff83809/CAL180002_19_Photo_14_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cff83809/CAL180002_19.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cff83809/CAL180002_19_Photo_14_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cff83809/CAL180002_19.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/cff83809/CAL180002_19_Photo_14_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/cff83809/CAL180002_19.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e96bcaca/CAL180002_20.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/e96bcaca/CAL180002_20.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e96bcaca/CAL180002_20_Photo_15_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/e96bcaca/CAL180002_20.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e96bcaca/CAL180002_20_Photo_15_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/e96bcaca/CAL180002_20.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/e96bcaca/CAL180002_20_Photo_15_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/e96bcaca/CAL180002_20.jpg"
+              }
+            ]
+          },
+          {
+            "Common.ImageCaption": "Ariel House",
+            "Common.ImageResources": [
+              {
+                "Common.Breakpoint": "original",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/bfff6f9a/CAL180002_21.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/bfff6f9a/CAL180002_21.jpg"
+              },
+              {
+                "Common.Breakpoint": "small",
+                "Common.Image.Height": 480,
+                "Common.Image.Width": 640,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/bfff6f9a/CAL180002_21_Photo_16_small.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/bfff6f9a/CAL180002_21.jpg"
+              },
+              {
+                "Common.Breakpoint": "medium",
+                "Common.Image.Height": 960,
+                "Common.Image.Width": 1280,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/bfff6f9a/CAL180002_21_Photo_16_medium.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/bfff6f9a/CAL180002_21.jpg"
+              },
+              {
+                "Common.Breakpoint": "large",
+                "Common.Image.Height": 1200,
+                "Common.Image.Width": 1600,
+                "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/bfff6f9a/CAL180002_21_Photo_16_large.jpg",
+                "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/bfff6f9a/CAL180002_21.jpg"
+              }
+            ]
+          }
+        ],
+        "Common.PrimaryKey": "GB-ReapIT-cbrrps-CAL180002",
+        "Common.PropertySubType": "Apartment",
+        "Common.PropertyTypes": ["Apartment"],
+        "Common.SourceLastupdated": "2018-10-31T17:14:53+00:00",
+        "Common.Strapline": [
+          {
+            "Common.CultureCode": "en-GB",
+            "Common.Text": "An amazing one bed to rent in London&#039;s newest exclusive development, E1W"
+          }
+        ],
+        "Common.UsageType": "Residential",
+        "Common.Walkthrough": "https://my.matterport.com/show/?m=qzGyZ8Ytgng&amp;hl=1&amp;wh=0&amp;guides=0",
+        "UnitedKingdom.VATPayable": false,
+        "Dynamic.NewHome": true,
+        "Dynamic.UnderOffer": false,
+        "Dynamic.LetUnderOffer": false,
+        "Dynamic.Furnished": "furnished",
+        "Dynamic.HasSwimmingPool": true,
+        "Dynamic.HasGym": true,
+        "Dynamic.HasDoorkeeper": true,
+        "Dynamic.IsPenthouse": false,
+        "Dynamic.HasBalcony": true,
+        "Dynamic.HasParking": false,
+        "Dynamic.HasLift": true,
+        "Dynamic.HasGarden": false,
+        "Dynamic.DevelopmentOpportunity": false,
+        "Dynamic.LettingCharge": 2578.33,
+        "Dynamic.NetCharge": null,
+        "Dynamic.SalePrice": null,
+        "Dynamic.MinArea": "0",
+        "Dynamic.TotalArea": null,
+        "Dynamic.PrimaryImage": {
+          "Common.ImageCaption": "Ariel House",
+          "Common.ImageResources": [
+            {
+              "Common.Breakpoint": "original",
+              "Common.Image.Height": 1200,
+              "Common.Image.Width": 1600,
+              "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06.jpg",
+              "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06.jpg"
+            },
+            {
+              "Common.Breakpoint": "small",
+              "Common.Image.Height": 480,
+              "Common.Image.Width": 640,
+              "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_small.jpg",
+              "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06.jpg"
+            },
+            {
+              "Common.Breakpoint": "medium",
+              "Common.Image.Height": 960,
+              "Common.Image.Width": 1280,
+              "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_medium.jpg",
+              "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06.jpg"
+            },
+            {
+              "Common.Breakpoint": "large",
+              "Common.Image.Height": 1200,
+              "Common.Image.Width": 1600,
+              "Common.Resource.Uri": "/resources/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06_Photo_1_large.jpg",
+              "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-ReapIT-cbrrps-CAL180002/a860e9a6/CAL180002_06.jpg"
+            }
+          ]
+        },
+        "Dynamic.MaxArea": null,
+        "Common.LastProcessed": "2018-10-31T17:24:54.8174988Z"
+      },
+      {}
+    ]
+  ],
+  "Aggregations": [[]],
+  "Took": "00:00:00.0213142"
+}

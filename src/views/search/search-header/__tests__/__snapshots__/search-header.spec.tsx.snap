@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/SearchComponents SearchHeader should render correctly 1`] = `
+<styled.div>
+  <styled.h4>
+    Search Header
+  </styled.h4>
+  <styled.a
+    href="https://www.cbre.com"
+  >
+    Go to CBRE
+  </styled.a>
+</styled.div>
+`;
+
+exports[`components/SearchComponents SearchHeader should render correctly with no link 1`] = `
+<styled.div>
+  <styled.h4>
+    Search Header
+  </styled.h4>
+</styled.div>
+`;
+
+exports[`components/SearchComponents SearchHeader should render correctly with no props 1`] = `""`;

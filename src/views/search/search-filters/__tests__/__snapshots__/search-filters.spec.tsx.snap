@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`views/search search-filters should render correctly 1`] = `""`;
+
+exports[`views/search search-filters should render correctly with both primary and secondary filters 1`] = `
+<styled.div>
+  <Styled(Filters)
+    displayLabels={true}
+    filters={
+      Array [
+        Object {
+          "items": Array [],
+          "label": "select filter",
+          "name": "selectFilter",
+          "placement": "lm_primaryFilter",
+          "type": "select",
+        },
+        Object {
+          "label": "range filter",
+          "max": Object {
+            "items": Array [],
+          },
+          "min": Object {
+            "items": Array [],
+          },
+          "name": "rangeFilter",
+          "placement": "lm_primaryFilter",
+          "type": "range",
+        },
+      ]
+    }
+    handleChange={[Function]}
+    inline={false}
+  />
+  <Styled(Filters)
+    displayLabels={true}
+    filters={
+      Array [
+        Object {
+          "label": "range filter",
+          "max": Object {
+            "items": Array [],
+          },
+          "min": Object {
+            "items": Array [],
+          },
+          "name": "rangeFilter",
+          "placement": "lm_primaryFilter",
+          "type": "range",
+        },
+        Object {
+          "items": Array [],
+          "label": "select filter",
+          "name": "selectFilter",
+          "placement": "lm_primaryFilter",
+          "type": "select",
+        },
+      ]
+    }
+    handleChange={[Function]}
+    inline={false}
+  />
+</styled.div>
+`;
+
+exports[`views/search search-filters should render correctly with primary filters 1`] = `
+<styled.div>
+  <Styled(Filters)
+    displayLabels={true}
+    filters={
+      Array [
+        Object {
+          "items": Array [],
+          "label": "select filter",
+          "name": "selectFilter",
+          "placement": "lm_primaryFilter",
+          "type": "select",
+        },
+        Object {
+          "label": "range filter",
+          "max": Object {
+            "items": Array [],
+          },
+          "min": Object {
+            "items": Array [],
+          },
+          "name": "rangeFilter",
+          "placement": "lm_primaryFilter",
+          "type": "range",
+        },
+      ]
+    }
+    handleChange={[Function]}
+    inline={false}
+  />
+  <Styled(Filters)
+    displayLabels={true}
+    filters={Array []}
+    handleChange={[Function]}
+    inline={false}
+  />
+</styled.div>
+`;
+
+exports[`views/search search-filters should render correctly with secondary filters 1`] = `
+<styled.div>
+  <Styled(Filters)
+    displayLabels={true}
+    filters={Array []}
+    handleChange={[Function]}
+    inline={false}
+  />
+  <Styled(Filters)
+    displayLabels={true}
+    filters={
+      Array [
+        Object {
+          "label": "range filter",
+          "max": Object {
+            "items": Array [],
+          },
+          "min": Object {
+            "items": Array [],
+          },
+          "name": "rangeFilter",
+          "placement": "lm_primaryFilter",
+          "type": "range",
+        },
+        Object {
+          "items": Array [],
+          "label": "select filter",
+          "name": "selectFilter",
+          "placement": "lm_primaryFilter",
+          "type": "select",
+        },
+      ]
+    }
+    handleChange={[Function]}
+    inline={false}
+  />
+</styled.div>
+`;

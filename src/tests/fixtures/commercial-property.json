@@ -1,0 +1,154 @@
+{
+  "Common.PrimaryKey": "GB-Plus-467051",
+  "Common.Coordinate": {
+    "lon": -0.073653000000035718,
+    "lat": 51.502504599999988
+  },
+  "Common.ContactGroup": {
+    "Common.GroupType": "AreaOffice",
+    "Common.Address": {
+      "Common.PostalAddresses": [
+        {
+          "Common.Line2": "Bow Street",
+          "Common.Line1": "9/12",
+          "Common.Locallity": "London",
+          "Common.Language": "en"
+        }
+      ],
+      "Common.Line2": "Bow Street",
+      "Common.Line1": "9/12",
+      "Common.Locallity": "London",
+      "Common.Country": "UK",
+      "Common.PostCode": "WC2E 7AB"
+    },
+    "Common.Contacts": [
+      {
+        "Common.TelephoneNumber": "+44 207 182 2577",
+        "Common.EmailAddress": "Ben.Deacon@cbre.com",
+        "Common.AgentName": "Ben Deacon"
+      },
+      {
+        "Common.TelephoneNumber": "+44 207 182 2165",
+        "Common.EmailAddress": "alex.kerr@cbre.com",
+        "Common.AgentName": "Alex Kerr"
+      }
+    ]
+  },
+  "Common.Charges": [
+    {
+      "Common.CurrencyCode": "GBP",
+      "Common.Year": 2019,
+      "Common.PerUnit": "sqft",
+      "Common.AmountKind": "Value",
+      "Common.TaxModifer": "None",
+      "Common.Interval": "Annually",
+      "Common.Amount": 15.0,
+      "Common.ChargeKind": "BusinessRates"
+    },
+    {
+      "Common.CurrencyCode": "GBP",
+      "Common.Year": 2018,
+      "Common.PerUnit": "sqft",
+      "Common.AmountKind": "Value",
+      "Common.TaxModifer": "None",
+      "Common.Interval": "Annually",
+      "Common.Amount": 9.22,
+      "Common.ChargeKind": "ServiceCharge"
+    },
+    {
+      "Common.OnApplication": true,
+      "Common.ChargeKind": "Rent",
+      "Common.ChargeModifer": "OnApplication"
+    }
+  ],
+  "Common.Highlights": [
+    {
+      "Common.Highlight": [
+        {
+          "Common.CultureCode": "en-GB",
+          "Common.Text": "Perimeter Comfort Cooling"
+        }
+      ]
+    },
+    {
+      "Common.Highlight": [{ "Common.CultureCode": "en-GB", "Common.Text": "Raised Floors" }]
+    },
+    {
+      "Common.Highlight": [{ "Common.CultureCode": "en-GB", "Common.Text": "LED Lighting" }]
+    },
+    {
+      "Common.Highlight": [{ "Common.CultureCode": "en-GB", "Common.Text": "Commissionaire" }]
+    }
+  ],
+  "Dynamic.PrimaryImage": {
+    "Common.ImageCaption": "INDIA HOUSE 45 CURLEW STREET BUTLERS WHARF - 353892 EXT LAND_RGB_1600PX",
+    "Common.ImageResources": [
+      {
+        "Common.Image.Width": 1600,
+        "Common.Image.Height": 1067,
+        "Common.Breakpoint": "original",
+        "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px.jpg",
+        "Common.Resource.Uri": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px.jpg"
+      },
+      {
+        "Common.Image.Width": 640,
+        "Common.Image.Height": 426,
+        "Common.Breakpoint": "small",
+        "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px.jpg",
+        "Common.Resource.Uri": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_small.jpg"
+      },
+      {
+        "Common.Image.Width": 1280,
+        "Common.Image.Height": 853,
+        "Common.Breakpoint": "medium",
+        "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px.jpg",
+        "Common.Resource.Uri": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_medium.jpg"
+      },
+      {
+        "Common.Image.Width": 1600,
+        "Common.Image.Height": 1067,
+        "Common.Breakpoint": "large",
+        "Source.Uri": "https://wwwlistingssearchcbreeuw.blob.core.windows.net/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px.jpg",
+        "Common.Resource.Uri": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_large.jpg"
+      }
+    ]
+  },
+  "Common.Sizes": [
+    {
+      "Common.Dimensions": [{ "Common.DimensionsUnits": "sqft", "Common.Amount": 6655.0 }],
+      "Common.SizeKind": "MinimumSize"
+    },
+    {
+      "Common.Dimensions": [{ "Common.DimensionsUnits": "sqft", "Common.Amount": 6655.0 }],
+      "Common.SizeKind": "TotalSize"
+    }
+  ],
+  "Common.TotalSize": [{ "Common.Size": 6655.0, "Common.Units": "sqft" }],
+  "Common.MinimumSize": [{ "Common.Size": 6655.0, "Common.Units": "sqft" }],
+  "Common.ActualAddress": {
+    "Common.PostalAddresses": [
+      {
+        "Common.Line2": "45 Curlew Street",
+        "Common.Line1": "India House",
+        "Common.Locallity": "London",
+        "Common.Language": "en"
+      }
+    ],
+    "Common.Line2": "45 Curlew Street",
+    "Common.Line1": "India House",
+    "Common.Locallity": "London",
+    "Common.Country": "UK",
+    "Common.PostCode": "SE1 2ND"
+  },
+  "Common.Aspects": ["isByArrangement", "isLetting", "hasFloors-Raised", "hasReception-Manned"],
+  "Common.NumberOfBedrooms": 0,
+  "Common.GeoLocation": {
+    "geometry": {
+      "coordinates": [51.502504599999988, -0.073653000000035718],
+      "type": "Point"
+    },
+    "Common.Exact": true
+  },
+  "Dynamic.MinimumSize": [{ "Common.Size": 6655.0, "Common.Units": "sqft" }],
+  "Dynamic.TotalSize": [{ "Common.Size": 6655.0, "Common.Units": "sqft" }]
+}

@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterBar should render correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <MapSearch
+        handleInput={[Function]}
+        handleSelect={[Function]}
+        initialSearchLocation="London"
+        suggestions={
+          Array [
+            Object {
+              "default": false,
+              "label": "London",
+              "value": "abc123",
+            },
+          ]
+        }
+      />
+    </styled.div>
+    <Styled(Filters)
+      displayLabels={false}
+      filters={
+        Array [
+          Object {
+            "items": Array [
+              Object {
+                "default": false,
+                "label": "bar",
+                "value": "foo",
+              },
+            ],
+            "label": "select filter",
+            "modifier": "query",
+            "name": "nodejs",
+            "placement": "lm_primaryFilter",
+            "type": "select",
+          },
+          Object {
+            "label": "Ramge filter",
+            "max": Object {
+              "items": Array [],
+            },
+            "min": Object {
+              "items": Array [],
+            },
+            "modifier": "query",
+            "name": "nodejs",
+            "placement": "lm_secondaryFilter",
+            "type": "range",
+          },
+        ]
+      }
+      handleChange={[Function]}
+      inline={true}
+      placement="lm_locationFilter"
+    />
+  </styled.div>
+  <Styled(Filters)
+    displayLabels={false}
+    filters={
+      Array [
+        Object {
+          "items": Array [
+            Object {
+              "default": false,
+              "label": "bar",
+              "value": "foo",
+            },
+          ],
+          "label": "select filter",
+          "modifier": "query",
+          "name": "nodejs",
+          "placement": "lm_primaryFilter",
+          "type": "select",
+        },
+        Object {
+          "label": "Ramge filter",
+          "max": Object {
+            "items": Array [],
+          },
+          "min": Object {
+            "items": Array [],
+          },
+          "modifier": "query",
+          "name": "nodejs",
+          "placement": "lm_secondaryFilter",
+          "type": "range",
+        },
+      ]
+    }
+    handleChange={[Function]}
+    inline={true}
+    placement="lm_primaryFilter"
+  />
+  <Styled(Filters)
+    displayLabels={false}
+    filters={
+      Array [
+        Object {
+          "items": Array [
+            Object {
+              "default": false,
+              "label": "bar",
+              "value": "foo",
+            },
+          ],
+          "label": "select filter",
+          "modifier": "query",
+          "name": "nodejs",
+          "placement": "lm_primaryFilter",
+          "type": "select",
+        },
+        Object {
+          "label": "Ramge filter",
+          "max": Object {
+            "items": Array [],
+          },
+          "min": Object {
+            "items": Array [],
+          },
+          "modifier": "query",
+          "name": "nodejs",
+          "placement": "lm_secondaryFilter",
+          "type": "range",
+        },
+      ]
+    }
+    handleChange={[Function]}
+    inline={true}
+    placement="lm_secondaryFilter"
+  />
+  <Styled(Filters)
+    displayLabels={false}
+    filters={
+      Array [
+        Object {
+          "items": Array [
+            Object {
+              "default": false,
+              "label": "bar",
+              "value": "foo",
+            },
+          ],
+          "label": "select filter",
+          "modifier": "query",
+          "name": "nodejs",
+          "placement": "lm_primaryFilter",
+          "type": "select",
+        },
+        Object {
+          "label": "Ramge filter",
+          "max": Object {
+            "items": Array [],
+          },
+          "min": Object {
+            "items": Array [],
+          },
+          "modifier": "query",
+          "name": "nodejs",
+          "placement": "lm_secondaryFilter",
+          "type": "range",
+        },
+      ]
+    }
+    handleChange={[Function]}
+    inline={true}
+    placement="lm_tertiaryFilters"
+  />
+</styled.div>
+`;

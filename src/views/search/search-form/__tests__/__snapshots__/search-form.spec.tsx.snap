@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`views/search search-form should render correctly 1`] = `
+<styled.form>
+  <styled.div>
+    <styled.div>
+      <MapSearch
+        handleInput={[Function]}
+        handleSelect={[Function]}
+        placeholder="SearchLocationPlaceholder"
+        suggestions={
+          Array [
+            Object {
+              "label": "bar",
+              "params": Object {},
+              "value": "foo",
+            },
+          ]
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <styled.div
+    singleButton={false}
+  >
+    <LinkButton
+      href="/buyButtonInfo"
+      icon={
+        <ChevronRight
+          fill="#fff"
+        />
+      }
+    >
+      buyButtonInfo
+    </LinkButton>
+    <LinkButton
+      href="/letButtonInfo"
+      icon={
+        <ChevronRight
+          fill="#fff"
+        />
+      }
+    >
+      letButtonInfo
+    </LinkButton>
+  </styled.div>
+</styled.form>
+`;
+
+exports[`views/search search-form should render correctly with hidden buy button 1`] = `
+<styled.form>
+  <styled.div>
+    <styled.div>
+      <MapSearch
+        handleInput={[Function]}
+        handleSelect={[Function]}
+        placeholder="SearchLocationPlaceholder"
+        suggestions={
+          Array [
+            Object {
+              "label": "bar",
+              "params": Object {},
+              "value": "foo",
+            },
+          ]
+        }
+      />
+    </styled.div>
+    <styled.div
+      singleButton={true}
+    >
+      <LinkButton
+        href="/letButtonInfo"
+        icon={
+          <ChevronRight
+            fill="#fff"
+          />
+        }
+      >
+        letButtonInfo
+      </LinkButton>
+    </styled.div>
+  </styled.div>
+</styled.form>
+`;
+
+exports[`views/search search-form should render correctly with hidden let button 1`] = `
+<styled.form>
+  <styled.div>
+    <styled.div>
+      <MapSearch
+        handleInput={[Function]}
+        handleSelect={[Function]}
+        placeholder="SearchLocationPlaceholder"
+        suggestions={
+          Array [
+            Object {
+              "label": "bar",
+              "params": Object {},
+              "value": "foo",
+            },
+          ]
+        }
+      />
+    </styled.div>
+    <styled.div
+      singleButton={true}
+    >
+      <LinkButton
+        href="/buyButtonInfo"
+        icon={
+          <ChevronRight
+            fill="#fff"
+          />
+        }
+      >
+        buyButtonInfo
+      </LinkButton>
+    </styled.div>
+  </styled.div>
+</styled.form>
+`;
+
+exports[`views/search search-form should render correctly with searchPathSelectors 1`] = `
+<styled.form>
+  <styled.div>
+    <styled.div>
+      <Select
+        handleSelect={[Function]}
+        items={
+          Array [
+            Object {
+              "default": false,
+              "label": "Offices in",
+              "value": "/listmap/office",
+            },
+            Object {
+              "default": true,
+              "label": "Industrial in",
+              "value": "/listmap/industrial",
+            },
+          ]
+        }
+        placeholder="Select..."
+      />
+    </styled.div>
+    <styled.div>
+      <MapSearch
+        handleInput={[Function]}
+        handleSelect={[Function]}
+        placeholder="SearchLocationPlaceholder"
+        suggestions={
+          Array [
+            Object {
+              "label": "bar",
+              "params": Object {},
+              "value": "foo",
+            },
+          ]
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <styled.div
+    singleButton={false}
+  >
+    <LinkButton
+      href="/buyButtonInfo"
+      icon={
+        <ChevronRight
+          fill="#fff"
+        />
+      }
+    >
+      buyButtonInfo
+    </LinkButton>
+    <LinkButton
+      href="/letButtonInfo"
+      icon={
+        <ChevronRight
+          fill="#fff"
+        />
+      }
+    >
+      letButtonInfo
+    </LinkButton>
+  </styled.div>
+</styled.form>
+`;
+
+exports[`views/search search-form should render correctly with searchPathSelectors and searchPath set 1`] = `
+<styled.form>
+  <styled.div>
+    <styled.div>
+      <Select
+        handleSelect={[Function]}
+        items={
+          Array [
+            Object {
+              "default": false,
+              "label": "Offices in",
+              "value": "/listmap/office",
+            },
+            Object {
+              "default": true,
+              "label": "Industrial in",
+              "value": "/listmap/industrial",
+            },
+          ]
+        }
+        placeholder="Select..."
+      />
+    </styled.div>
+    <styled.div>
+      <MapSearch
+        handleInput={[Function]}
+        handleSelect={[Function]}
+        placeholder="SearchLocationPlaceholder"
+        suggestions={
+          Array [
+            Object {
+              "label": "bar",
+              "params": Object {},
+              "value": "foo",
+            },
+          ]
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <styled.div
+    singleButton={false}
+  >
+    <LinkButton
+      href="/buyButtonInfo"
+      icon={
+        <ChevronRight
+          fill="#fff"
+        />
+      }
+    >
+      buyButtonInfo
+    </LinkButton>
+    <LinkButton
+      href="/letButtonInfo"
+      icon={
+        <ChevronRight
+          fill="#fff"
+        />
+      }
+    >
+      letButtonInfo
+    </LinkButton>
+  </styled.div>
+</styled.form>
+`;

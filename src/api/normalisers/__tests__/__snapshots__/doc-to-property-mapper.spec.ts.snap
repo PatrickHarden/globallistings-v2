@@ -1,0 +1,530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`docToProperty should map full commercial property 1`] = `
+Object {
+  "address": Object {
+    "Country": "UK",
+    "Line1": "India House",
+    "Line2": "45 Curlew Street",
+    "Locality": "London",
+    "PostCode": "SE1 2ND",
+  },
+  "charges": Array [
+    Object {
+      "amount": 15,
+      "amountKind": "Value",
+      "chargeKind": "BusinessRates",
+      "chargeModifier": undefined,
+      "currencyCode": "GBP",
+      "interval": "Annually",
+      "onApplication": undefined,
+      "perUnit": "sqft",
+      "taxModifier": "None",
+      "year": 2019,
+    },
+    Object {
+      "amount": 9.22,
+      "amountKind": "Value",
+      "chargeKind": "ServiceCharge",
+      "chargeModifier": undefined,
+      "currencyCode": "GBP",
+      "interval": "Annually",
+      "onApplication": undefined,
+      "perUnit": "sqft",
+      "taxModifier": "None",
+      "year": 2018,
+    },
+    Object {
+      "amount": undefined,
+      "amountKind": undefined,
+      "chargeKind": "Rent",
+      "chargeModifier": "OnApplication",
+      "currencyCode": undefined,
+      "interval": undefined,
+      "onApplication": true,
+      "perUnit": undefined,
+      "taxModifier": undefined,
+      "year": undefined,
+    },
+  ],
+  "contacts": Array [
+    Object {
+      "email": "+44 207 182 2577",
+      "name": "Ben Deacon",
+      "phone": "Ben.Deacon@cbre.com",
+    },
+    Object {
+      "email": "+44 207 182 2165",
+      "name": "Alex Kerr",
+      "phone": "alex.kerr@cbre.com",
+    },
+  ],
+  "description": Object {
+    "longDescription": undefined,
+    "strapline": undefined,
+  },
+  "highlights": Array [
+    "Perimeter Comfort Cooling",
+    "Raised Floors",
+    "LED Lighting",
+    "Commissionaire",
+  ],
+  "id": "GB-Plus-467051",
+  "info": Object {
+    "energyPerformance": undefined,
+    "floorPlans": undefined,
+  },
+  "location": Object {
+    "lat": 51.50250459999999,
+    "lon": -0.07365300000003572,
+  },
+  "numberOfBedrooms": 0,
+  "photos": Object {
+    "hero": Object {
+      "large": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_large.jpg",
+      "small": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_small.jpg",
+    },
+    "main": undefined,
+  },
+  "size": Object {
+    "max": Object {
+      "amount": 6655,
+      "units": "sqft",
+    },
+    "min": Object {
+      "amount": 6655,
+      "units": "sqft",
+    },
+  },
+}
+`;
+
+exports[`docToProperty should map property without Common.Charges 1`] = `
+Object {
+  "address": Object {
+    "Country": "UK",
+    "Line1": "India House",
+    "Line2": "45 Curlew Street",
+    "Locality": "London",
+    "PostCode": "SE1 2ND",
+  },
+  "charges": undefined,
+  "contacts": Array [
+    Object {
+      "email": "+44 207 182 2577",
+      "name": "Ben Deacon",
+      "phone": "Ben.Deacon@cbre.com",
+    },
+    Object {
+      "email": "+44 207 182 2165",
+      "name": "Alex Kerr",
+      "phone": "alex.kerr@cbre.com",
+    },
+  ],
+  "description": Object {
+    "longDescription": undefined,
+    "strapline": undefined,
+  },
+  "highlights": Array [
+    "Perimeter Comfort Cooling",
+    "Raised Floors",
+    "LED Lighting",
+    "Commissionaire",
+  ],
+  "id": "GB-Plus-467051",
+  "info": Object {
+    "energyPerformance": undefined,
+    "floorPlans": undefined,
+  },
+  "location": Object {
+    "lat": 51.50250459999999,
+    "lon": -0.07365300000003572,
+  },
+  "numberOfBedrooms": 0,
+  "photos": Object {
+    "hero": Object {
+      "large": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_large.jpg",
+      "small": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_small.jpg",
+    },
+    "main": undefined,
+  },
+  "size": Object {
+    "max": Object {
+      "amount": 6655,
+      "units": "sqft",
+    },
+    "min": Object {
+      "amount": 6655,
+      "units": "sqft",
+    },
+  },
+}
+`;
+
+exports[`docToProperty should map property without Common.ContactGroup 1`] = `
+Object {
+  "address": Object {
+    "Country": "UK",
+    "Line1": "India House",
+    "Line2": "45 Curlew Street",
+    "Locality": "London",
+    "PostCode": "SE1 2ND",
+  },
+  "charges": Array [
+    Object {
+      "amount": 15,
+      "amountKind": "Value",
+      "chargeKind": "BusinessRates",
+      "chargeModifier": undefined,
+      "currencyCode": "GBP",
+      "interval": "Annually",
+      "onApplication": undefined,
+      "perUnit": "sqft",
+      "taxModifier": "None",
+      "year": 2019,
+    },
+    Object {
+      "amount": 9.22,
+      "amountKind": "Value",
+      "chargeKind": "ServiceCharge",
+      "chargeModifier": undefined,
+      "currencyCode": "GBP",
+      "interval": "Annually",
+      "onApplication": undefined,
+      "perUnit": "sqft",
+      "taxModifier": "None",
+      "year": 2018,
+    },
+    Object {
+      "amount": undefined,
+      "amountKind": undefined,
+      "chargeKind": "Rent",
+      "chargeModifier": "OnApplication",
+      "currencyCode": undefined,
+      "interval": undefined,
+      "onApplication": true,
+      "perUnit": undefined,
+      "taxModifier": undefined,
+      "year": undefined,
+    },
+  ],
+  "contacts": undefined,
+  "description": Object {
+    "longDescription": undefined,
+    "strapline": undefined,
+  },
+  "highlights": Array [
+    "Perimeter Comfort Cooling",
+    "Raised Floors",
+    "LED Lighting",
+    "Commissionaire",
+  ],
+  "id": "GB-Plus-467051",
+  "info": Object {
+    "energyPerformance": undefined,
+    "floorPlans": undefined,
+  },
+  "location": Object {
+    "lat": 51.50250459999999,
+    "lon": -0.07365300000003572,
+  },
+  "numberOfBedrooms": 0,
+  "photos": Object {
+    "hero": Object {
+      "large": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_large.jpg",
+      "small": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_small.jpg",
+    },
+    "main": undefined,
+  },
+  "size": Object {
+    "max": Object {
+      "amount": 6655,
+      "units": "sqft",
+    },
+    "min": Object {
+      "amount": 6655,
+      "units": "sqft",
+    },
+  },
+}
+`;
+
+exports[`docToProperty should map property without Common.Highlights 1`] = `
+Object {
+  "address": Object {
+    "Country": "UK",
+    "Line1": "India House",
+    "Line2": "45 Curlew Street",
+    "Locality": "London",
+    "PostCode": "SE1 2ND",
+  },
+  "charges": Array [
+    Object {
+      "amount": 15,
+      "amountKind": "Value",
+      "chargeKind": "BusinessRates",
+      "chargeModifier": undefined,
+      "currencyCode": "GBP",
+      "interval": "Annually",
+      "onApplication": undefined,
+      "perUnit": "sqft",
+      "taxModifier": "None",
+      "year": 2019,
+    },
+    Object {
+      "amount": 9.22,
+      "amountKind": "Value",
+      "chargeKind": "ServiceCharge",
+      "chargeModifier": undefined,
+      "currencyCode": "GBP",
+      "interval": "Annually",
+      "onApplication": undefined,
+      "perUnit": "sqft",
+      "taxModifier": "None",
+      "year": 2018,
+    },
+    Object {
+      "amount": undefined,
+      "amountKind": undefined,
+      "chargeKind": "Rent",
+      "chargeModifier": "OnApplication",
+      "currencyCode": undefined,
+      "interval": undefined,
+      "onApplication": true,
+      "perUnit": undefined,
+      "taxModifier": undefined,
+      "year": undefined,
+    },
+  ],
+  "contacts": Array [
+    Object {
+      "email": "+44 207 182 2577",
+      "name": "Ben Deacon",
+      "phone": "Ben.Deacon@cbre.com",
+    },
+    Object {
+      "email": "+44 207 182 2165",
+      "name": "Alex Kerr",
+      "phone": "alex.kerr@cbre.com",
+    },
+  ],
+  "description": Object {
+    "longDescription": undefined,
+    "strapline": undefined,
+  },
+  "highlights": undefined,
+  "id": "GB-Plus-467051",
+  "info": Object {
+    "energyPerformance": undefined,
+    "floorPlans": undefined,
+  },
+  "location": Object {
+    "lat": 51.50250459999999,
+    "lon": -0.07365300000003572,
+  },
+  "numberOfBedrooms": 0,
+  "photos": Object {
+    "hero": Object {
+      "large": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_large.jpg",
+      "small": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_small.jpg",
+    },
+    "main": undefined,
+  },
+  "size": Object {
+    "max": Object {
+      "amount": 6655,
+      "units": "sqft",
+    },
+    "min": Object {
+      "amount": 6655,
+      "units": "sqft",
+    },
+  },
+}
+`;
+
+exports[`docToProperty should map property without Common.Sizes 1`] = `
+Object {
+  "address": Object {
+    "Country": "UK",
+    "Line1": "India House",
+    "Line2": "45 Curlew Street",
+    "Locality": "London",
+    "PostCode": "SE1 2ND",
+  },
+  "charges": Array [
+    Object {
+      "amount": 15,
+      "amountKind": "Value",
+      "chargeKind": "BusinessRates",
+      "chargeModifier": undefined,
+      "currencyCode": "GBP",
+      "interval": "Annually",
+      "onApplication": undefined,
+      "perUnit": "sqft",
+      "taxModifier": "None",
+      "year": 2019,
+    },
+    Object {
+      "amount": 9.22,
+      "amountKind": "Value",
+      "chargeKind": "ServiceCharge",
+      "chargeModifier": undefined,
+      "currencyCode": "GBP",
+      "interval": "Annually",
+      "onApplication": undefined,
+      "perUnit": "sqft",
+      "taxModifier": "None",
+      "year": 2018,
+    },
+    Object {
+      "amount": undefined,
+      "amountKind": undefined,
+      "chargeKind": "Rent",
+      "chargeModifier": "OnApplication",
+      "currencyCode": undefined,
+      "interval": undefined,
+      "onApplication": true,
+      "perUnit": undefined,
+      "taxModifier": undefined,
+      "year": undefined,
+    },
+  ],
+  "contacts": Array [
+    Object {
+      "email": "+44 207 182 2577",
+      "name": "Ben Deacon",
+      "phone": "Ben.Deacon@cbre.com",
+    },
+    Object {
+      "email": "+44 207 182 2165",
+      "name": "Alex Kerr",
+      "phone": "alex.kerr@cbre.com",
+    },
+  ],
+  "description": Object {
+    "longDescription": undefined,
+    "strapline": undefined,
+  },
+  "highlights": Array [
+    "Perimeter Comfort Cooling",
+    "Raised Floors",
+    "LED Lighting",
+    "Commissionaire",
+  ],
+  "id": "GB-Plus-467051",
+  "info": Object {
+    "energyPerformance": undefined,
+    "floorPlans": undefined,
+  },
+  "location": Object {
+    "lat": 51.50250459999999,
+    "lon": -0.07365300000003572,
+  },
+  "numberOfBedrooms": 0,
+  "photos": Object {
+    "hero": Object {
+      "large": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_large.jpg",
+      "small": "/resources/fileassets/GB-Plus-467051/11221671/India%20House%2045%20Curlew%20Street%20Butlers%20Wharf%20-%20353892%20Ext%20land_RGB_1600px_Photo_1_small.jpg",
+    },
+    "main": undefined,
+  },
+  "size": undefined,
+}
+`;
+
+exports[`docToProperty should map property without Dynamic.PrimaryImage 1`] = `
+Object {
+  "address": Object {
+    "Country": "UK",
+    "Line1": "India House",
+    "Line2": "45 Curlew Street",
+    "Locality": "London",
+    "PostCode": "SE1 2ND",
+  },
+  "charges": Array [
+    Object {
+      "amount": 15,
+      "amountKind": "Value",
+      "chargeKind": "BusinessRates",
+      "chargeModifier": undefined,
+      "currencyCode": "GBP",
+      "interval": "Annually",
+      "onApplication": undefined,
+      "perUnit": "sqft",
+      "taxModifier": "None",
+      "year": 2019,
+    },
+    Object {
+      "amount": 9.22,
+      "amountKind": "Value",
+      "chargeKind": "ServiceCharge",
+      "chargeModifier": undefined,
+      "currencyCode": "GBP",
+      "interval": "Annually",
+      "onApplication": undefined,
+      "perUnit": "sqft",
+      "taxModifier": "None",
+      "year": 2018,
+    },
+    Object {
+      "amount": undefined,
+      "amountKind": undefined,
+      "chargeKind": "Rent",
+      "chargeModifier": "OnApplication",
+      "currencyCode": undefined,
+      "interval": undefined,
+      "onApplication": true,
+      "perUnit": undefined,
+      "taxModifier": undefined,
+      "year": undefined,
+    },
+  ],
+  "contacts": Array [
+    Object {
+      "email": "+44 207 182 2577",
+      "name": "Ben Deacon",
+      "phone": "Ben.Deacon@cbre.com",
+    },
+    Object {
+      "email": "+44 207 182 2165",
+      "name": "Alex Kerr",
+      "phone": "alex.kerr@cbre.com",
+    },
+  ],
+  "description": Object {
+    "longDescription": undefined,
+    "strapline": undefined,
+  },
+  "highlights": Array [
+    "Perimeter Comfort Cooling",
+    "Raised Floors",
+    "LED Lighting",
+    "Commissionaire",
+  ],
+  "id": "GB-Plus-467051",
+  "info": Object {
+    "energyPerformance": undefined,
+    "floorPlans": undefined,
+  },
+  "location": Object {
+    "lat": 51.50250459999999,
+    "lon": -0.07365300000003572,
+  },
+  "numberOfBedrooms": 0,
+  "photos": Object {
+    "hero": undefined,
+    "main": undefined,
+  },
+  "size": Object {
+    "max": Object {
+      "amount": 6655,
+      "units": "sqft",
+    },
+    "min": Object {
+      "amount": 6655,
+      "units": "sqft",
+    },
+  },
+}
+`;

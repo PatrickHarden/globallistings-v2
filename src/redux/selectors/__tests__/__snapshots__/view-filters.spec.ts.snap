@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`make sure selected items are returned to properly set filters 1`] = `
+Array [
+  Object {
+    "items": Array [
+      Object {
+        "label": "Office",
+        "value": "office",
+      },
+      Object {
+        "label": "Industrial",
+        "value": "industrial",
+      },
+      Object {
+        "label": "Retail",
+        "value": "retail",
+      },
+    ],
+    "name": "usageType",
+    "options": Array [
+      Object {
+        "label": "Office",
+        "value": "office",
+      },
+      Object {
+        "label": "Industrial",
+        "value": "industrial",
+      },
+      Object {
+        "label": "Retail",
+        "value": "retail",
+      },
+    ],
+    "selectedItem": Object {
+      "label": "Industrial",
+      "value": "industrial",
+    },
+    "type": "select",
+  },
+  Object {
+    "items": Array [
+      Object {
+        "label": "To Buy",
+        "value": "sale",
+      },
+      Object {
+        "label": "To Let",
+        "value": "letting",
+      },
+    ],
+    "name": "transactionType",
+    "options": Array [
+      Object {
+        "label": "To Buy",
+        "value": "sale",
+      },
+      Object {
+        "label": "To Let",
+        "value": "letting",
+      },
+    ],
+    "selectedItem": Object {
+      "label": "To Let",
+      "value": "letting",
+    },
+    "type": "select",
+  },
+]
+`;

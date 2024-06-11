@@ -1,0 +1,1768 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/SharedComponents select should render correctly as an autocomplete 1`] = `
+<div
+  aria-expanded={false}
+  aria-haspopup="listbox"
+  aria-labelledby="downshift-4-label"
+  aria-owns={null}
+  role="combobox"
+>
+  <styled.div>
+    <styled.div>
+      <styled.div
+        onClick={[Function]}
+      >
+        <styled.input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls={null}
+          aria-labelledby="downshift-4-label"
+          autoComplete="off"
+          id="downshift-4-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          value=""
+        />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</div>
+`;
+
+exports[`components/SharedComponents select should render correctly when defaultToFirstValue is true 1`] = `
+<div
+  aria-expanded={false}
+  aria-haspopup="listbox"
+  aria-labelledby="downshift-6-label"
+  aria-owns={null}
+  role="combobox"
+>
+  <styled.div>
+    <styled.div>
+      <styled.div
+        onClick={[Function]}
+      >
+        <styled.input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls={null}
+          aria-labelledby="downshift-6-label"
+          autoComplete="off"
+          id="downshift-6-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          value="bar"
+        />
+        <ChevronDown />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</div>
+`;
+
+exports[`components/SharedComponents select should render correctly when options are displayed 1`] = `
+#agency365_spa .c0 {
+  position: relative;
+}
+
+#agency365_spa .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  border: 1px solid rgba(35,31,32,0.1);
+}
+
+#agency365_spa .c1 svg {
+  margin: auto 10px;
+}
+
+#agency365_spa .c2 {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  box-shadow: none;
+  background: none;
+  border: 0;
+  padding: calc(0.8rem + 2px);
+}
+
+#agency365_spa .c2:focus {
+  outline: none;
+}
+
+#agency365_spa .c3 {
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  margin-top: -1px;
+  overflow: auto;
+  background-color: #fff;
+  border: 1px solid rgba(35,31,32,0.1);
+  border-top: none;
+  overflow-x: hidden;
+  padding: 0.8rem;
+}
+
+#agency365_spa .c4 {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+#agency365_spa .c4:hover,
+#agency365_spa .c4.highlighted {
+  color: #fff;
+  background-color: #006a4d;
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "borders": Object {
+        "fine": "1px solid rgba(35,31,32,0.1)",
+        "thick": "2px solid #006a4d",
+      },
+      "colours": Object {
+        "light": "#fff",
+        "primary": "#006a4d",
+        "primaryDark": "#003728",
+        "secondary": "#5ca623",
+      },
+      "font": Object {
+        "futura": "'Futura-pt', helvetica, arial, sans-serif",
+        "letterSpacing": "0.36",
+        "size": Object {
+          "l": "1.2em",
+          "m": "1em",
+          "s": ".8em",
+          "xl": "1.5em",
+        },
+        "weight": Object {
+          "normal": 300,
+        },
+      },
+      "gutter": Object {
+        "l": "2rem",
+        "m": "1rem",
+        "s": "0.8rem",
+      },
+      "layout": Object {
+        "columns": Object {
+          "l": "70%",
+          "r": "30%",
+        },
+      },
+      "media": Object {
+        "screen": Object {
+          "s": "768px",
+        },
+      },
+      "shadow": Object {
+        "light": "0 4px 7px 0 rgba(35, 31, 32, 0.05)",
+      },
+    }
+  }
+>
+  <Select
+    handleInput={[MockFunction]}
+    handleSelect={[MockFunction]}
+    items={
+      Array [
+        Object {
+          "default": false,
+          "label": "bar",
+          "value": "foo",
+        },
+        Object {
+          "default": false,
+          "label": "baz",
+          "value": "bar",
+        },
+      ]
+    }
+    theme={
+      Object {
+        "borders": Object {
+          "fine": "1px solid rgba(35,31,32,0.1)",
+          "thick": "2px solid #006a4d",
+        },
+        "colours": Object {
+          "light": "#fff",
+          "primary": "#006a4d",
+          "primaryDark": "#003728",
+          "secondary": "#5ca623",
+        },
+        "font": Object {
+          "futura": "'Futura-pt', helvetica, arial, sans-serif",
+          "letterSpacing": "0.36",
+          "size": Object {
+            "l": "1.2em",
+            "m": "1em",
+            "s": ".8em",
+            "xl": "1.5em",
+          },
+          "weight": Object {
+            "normal": 300,
+          },
+        },
+        "gutter": Object {
+          "l": "2rem",
+          "m": "1rem",
+          "s": "0.8rem",
+        },
+        "layout": Object {
+          "columns": Object {
+            "l": "70%",
+            "r": "30%",
+          },
+        },
+        "media": Object {
+          "screen": Object {
+            "s": "768px",
+          },
+        },
+        "shadow": Object {
+          "light": "0 4px 7px 0 rgba(35, 31, 32, 0.05)",
+        },
+      }
+    }
+  >
+    <Downshift
+      defaultHighlightedIndex={null}
+      defaultIsOpen={false}
+      environment={[Window]}
+      getA11yStatusMessage={[Function]}
+      initialInputValue=""
+      itemToString={[Function]}
+      onChange={[MockFunction]}
+      onInputValueChange={[Function]}
+      onOuterClick={[Function]}
+      onSelect={[Function]}
+      onStateChange={[Function]}
+      onUserAction={[Function]}
+      scrollIntoView={[Function]}
+      selectedItemChanged={[Function]}
+      stateReducer={[Function]}
+      suppressRefError={false}
+    >
+      <div
+        aria-expanded={true}
+        aria-haspopup="listbox"
+        aria-labelledby="downshift-9-label"
+        aria-owns="downshift-9-menu"
+        role="combobox"
+      >
+        <styled.div>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": true,
+                  "lastClassName": "c0",
+                  "rules": Array [
+                    "
+#agency365_spa & {
+  position: relative;
+}
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c0"
+            >
+              <styled.div>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bwzfXH",
+                        "isStatic": true,
+                        "lastClassName": "kKbPsW",
+                        "rules": Array [
+                          "
+#agency365_spa & {}
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bwzfXH",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className=""
+                  >
+                    <styled.div
+                      onClick={[Function]}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bxivhb",
+                              "isStatic": false,
+                              "lastClassName": "c1",
+                              "rules": Array [
+                                "
+#agency365_spa & {
+  display: flex;
+  background-color: ",
+                                [Function],
+                                ";
+  border: ",
+                                [Function],
+                                ";
+}
+
+  #agency365_spa & svg {
+    margin: auto 10px;
+  }
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bxivhb",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="c1"
+                          onClick={[Function]}
+                        >
+                          <styled.input
+                            aria-activedescendant={null}
+                            aria-autocomplete="list"
+                            aria-controls="downshift-9-menu"
+                            aria-labelledby="downshift-9-label"
+                            autoComplete="off"
+                            id="downshift-9-input"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onKeyDown={[Function]}
+                            value=""
+                          >
+                            <StyledComponent
+                              aria-activedescendant={null}
+                              aria-autocomplete="list"
+                              aria-controls="downshift-9-menu"
+                              aria-labelledby="downshift-9-label"
+                              autoComplete="off"
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-ifAKCX",
+                                    "isStatic": false,
+                                    "lastClassName": "c2",
+                                    "rules": Array [
+                                      "
+#agency365_spa & {
+  width: 100%;
+  flex-grow: 1;
+  box-shadow: none;
+  background: none;
+  border: 0;
+  padding: calc(",
+                                      [Function],
+                                      " + 2px);
+}
+
+  #agency365_spa &:focus {
+    outline: none;
+  }
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.input",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-ifAKCX",
+                                  "target": "input",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={
+                                Object {
+                                  "current": #agency365_spa .c0 {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  box-shadow: none;
+  background: none;
+  border: 0;
+  padding: calc(0.8rem + 2px);
+}
+
+#agency365_spa .c0:focus {
+  outline: none;
+}
+
+<input
+                                    aria-autocomplete="list"
+                                    aria-controls="downshift-9-menu"
+                                    aria-labelledby="downshift-9-label"
+                                    autocomplete="off"
+                                    class="c0"
+                                    id="downshift-9-input"
+                                    value=""
+                                  />,
+                                }
+                              }
+                              id="downshift-9-input"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onKeyDown={[Function]}
+                              value=""
+                            >
+                              <input
+                                aria-activedescendant={null}
+                                aria-autocomplete="list"
+                                aria-controls="downshift-9-menu"
+                                aria-labelledby="downshift-9-label"
+                                autoComplete="off"
+                                className="c2"
+                                id="downshift-9-input"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onKeyDown={[Function]}
+                                value=""
+                              />
+                            </StyledComponent>
+                          </styled.input>
+                          <ChevronUp>
+                            <svg
+                              height="10"
+                              version="1.1"
+                              viewBox="0 0 16 10"
+                              width="16"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g
+                                fill="none"
+                                fillRule="evenodd"
+                                stroke="none"
+                                strokeWidth="1"
+                              >
+                                <g
+                                  fill="#006A4D"
+                                  transform="translate(-98.000000, -16.000000)"
+                                >
+                                  <g
+                                    transform="translate(106.000000, 21.000000) rotate(90.000000) translate(-106.000000, -21.000000) translate(98.000000, 13.000000)"
+                                  >
+                                    <path
+                                      d="M5.12862876,7.95533112 L12.1953224,13.8849911 L11.1668622,15.1106622 L3.2,8.42567111 L3.20449273,8.42031688 L3.2,8.41904297 L3.2,7.48499114 L11.1668622,0.8 L12.1953224,2.02567111 L5.12862876,7.95533112 Z"
+                                    />
+                                  </g>
+                                </g>
+                              </g>
+                            </svg>
+                          </ChevronUp>
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                    <styled.div
+                      aria-labelledby="downshift-9-label"
+                      hasIcon={false}
+                      id="downshift-9-menu"
+                      role="listbox"
+                    >
+                      <StyledComponent
+                        aria-labelledby="downshift-9-label"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-EHOje",
+                              "isStatic": false,
+                              "lastClassName": "c3",
+                              "rules": Array [
+                                "
+#agency365_spa & {
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  margin-top: -1px;
+  overflow: auto;
+  background-color: ",
+                                [Function],
+                                ";
+  border: ",
+                                [Function],
+                                ";
+  border-top: none;
+  overflow-x: hidden;
+  padding: ",
+                                [Function],
+                                ";
+}
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-EHOje",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={[Function]}
+                        hasIcon={false}
+                        id="downshift-9-menu"
+                        role="listbox"
+                      >
+                        <div
+                          aria-labelledby="downshift-9-label"
+                          className="c3"
+                          id="downshift-9-menu"
+                          role="listbox"
+                        >
+                          <styled.button
+                            aria-selected={false}
+                            id="downshift-9-item-0"
+                            key="foo_bar"
+                            onClick={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseMove={[Function]}
+                            role="option"
+                          >
+                            <StyledComponent
+                              aria-selected={false}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [
+                                    Object {
+                                      "type": "button",
+                                    },
+                                  ],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bZQynM",
+                                    "isStatic": false,
+                                    "lastClassName": "c4",
+                                    "rules": Array [
+                                      "
+#agency365_spa & {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  padding: ",
+                                      [Function],
+                                      ";
+  background-color: ",
+                                      [Function],
+                                      ";
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+  #agency365_spa &:hover,
+  #agency365_spa &.highlighted {
+    color: ",
+                                      [Function],
+                                      ";
+    background-color: ",
+                                      [Function],
+                                      ";
+  }
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.button",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-bZQynM",
+                                  "target": "button",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              id="downshift-9-item-0"
+                              onClick={[Function]}
+                              onMouseDown={[Function]}
+                              onMouseMove={[Function]}
+                              role="option"
+                            >
+                              <button
+                                aria-selected={false}
+                                className="c4"
+                                id="downshift-9-item-0"
+                                onClick={[Function]}
+                                onMouseDown={[Function]}
+                                onMouseMove={[Function]}
+                                role="option"
+                                type="button"
+                              >
+                                <StringHighlighter
+                                  enabled={false}
+                                  highlightSection=""
+                                  str="bar"
+                                >
+                                  <span>
+                                    bar
+                                  </span>
+                                </StringHighlighter>
+                              </button>
+                            </StyledComponent>
+                          </styled.button>
+                          <styled.button
+                            aria-selected={false}
+                            id="downshift-9-item-1"
+                            key="bar_baz"
+                            onClick={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseMove={[Function]}
+                            role="option"
+                          >
+                            <StyledComponent
+                              aria-selected={false}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [
+                                    Object {
+                                      "type": "button",
+                                    },
+                                  ],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bZQynM",
+                                    "isStatic": false,
+                                    "lastClassName": "c4",
+                                    "rules": Array [
+                                      "
+#agency365_spa & {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  padding: ",
+                                      [Function],
+                                      ";
+  background-color: ",
+                                      [Function],
+                                      ";
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+  #agency365_spa &:hover,
+  #agency365_spa &.highlighted {
+    color: ",
+                                      [Function],
+                                      ";
+    background-color: ",
+                                      [Function],
+                                      ";
+  }
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.button",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-bZQynM",
+                                  "target": "button",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              id="downshift-9-item-1"
+                              onClick={[Function]}
+                              onMouseDown={[Function]}
+                              onMouseMove={[Function]}
+                              role="option"
+                            >
+                              <button
+                                aria-selected={false}
+                                className="c4"
+                                id="downshift-9-item-1"
+                                onClick={[Function]}
+                                onMouseDown={[Function]}
+                                onMouseMove={[Function]}
+                                role="option"
+                                type="button"
+                              >
+                                <StringHighlighter
+                                  enabled={false}
+                                  highlightSection=""
+                                  str="baz"
+                                >
+                                  <span>
+                                    baz
+                                  </span>
+                                </StringHighlighter>
+                              </button>
+                            </StyledComponent>
+                          </styled.button>
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </Downshift>
+  </Select>
+</ThemeProvider>
+`;
+
+exports[`components/SharedComponents select should render correctly when options are displayed and highlightCurrentValue is true 1`] = `
+#agency365_spa .c0 {
+  position: relative;
+}
+
+#agency365_spa .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  border: 1px solid rgba(35,31,32,0.1);
+}
+
+#agency365_spa .c1 svg {
+  margin: auto 10px;
+}
+
+#agency365_spa .c2 {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  box-shadow: none;
+  background: none;
+  border: 0;
+  padding: calc(0.8rem + 2px);
+}
+
+#agency365_spa .c2:focus {
+  outline: none;
+}
+
+#agency365_spa .c3 {
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  margin-top: -1px;
+  overflow: auto;
+  background-color: #fff;
+  border: 1px solid rgba(35,31,32,0.1);
+  border-top: none;
+  overflow-x: hidden;
+  padding: 0.8rem;
+}
+
+#agency365_spa .c4 {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+#agency365_spa .c4:hover,
+#agency365_spa .c4.highlighted {
+  color: #fff;
+  background-color: #006a4d;
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "borders": Object {
+        "fine": "1px solid rgba(35,31,32,0.1)",
+        "thick": "2px solid #006a4d",
+      },
+      "colours": Object {
+        "light": "#fff",
+        "primary": "#006a4d",
+        "primaryDark": "#003728",
+        "secondary": "#5ca623",
+      },
+      "font": Object {
+        "futura": "'Futura-pt', helvetica, arial, sans-serif",
+        "letterSpacing": "0.36",
+        "size": Object {
+          "l": "1.2em",
+          "m": "1em",
+          "s": ".8em",
+          "xl": "1.5em",
+        },
+        "weight": Object {
+          "normal": 300,
+        },
+      },
+      "gutter": Object {
+        "l": "2rem",
+        "m": "1rem",
+        "s": "0.8rem",
+      },
+      "layout": Object {
+        "columns": Object {
+          "l": "70%",
+          "r": "30%",
+        },
+      },
+      "media": Object {
+        "screen": Object {
+          "s": "768px",
+        },
+      },
+      "shadow": Object {
+        "light": "0 4px 7px 0 rgba(35, 31, 32, 0.05)",
+      },
+    }
+  }
+>
+  <Select
+    handleInput={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "ba",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    handleSelect={[MockFunction]}
+    highlightCurrentValue={true}
+    items={
+      Array [
+        Object {
+          "default": false,
+          "label": "bar",
+          "value": "foo",
+        },
+        Object {
+          "default": false,
+          "label": "baz",
+          "value": "bar",
+        },
+      ]
+    }
+    theme={
+      Object {
+        "borders": Object {
+          "fine": "1px solid rgba(35,31,32,0.1)",
+          "thick": "2px solid #006a4d",
+        },
+        "colours": Object {
+          "light": "#fff",
+          "primary": "#006a4d",
+          "primaryDark": "#003728",
+          "secondary": "#5ca623",
+        },
+        "font": Object {
+          "futura": "'Futura-pt', helvetica, arial, sans-serif",
+          "letterSpacing": "0.36",
+          "size": Object {
+            "l": "1.2em",
+            "m": "1em",
+            "s": ".8em",
+            "xl": "1.5em",
+          },
+          "weight": Object {
+            "normal": 300,
+          },
+        },
+        "gutter": Object {
+          "l": "2rem",
+          "m": "1rem",
+          "s": "0.8rem",
+        },
+        "layout": Object {
+          "columns": Object {
+            "l": "70%",
+            "r": "30%",
+          },
+        },
+        "media": Object {
+          "screen": Object {
+            "s": "768px",
+          },
+        },
+        "shadow": Object {
+          "light": "0 4px 7px 0 rgba(35, 31, 32, 0.05)",
+        },
+      }
+    }
+  >
+    <Downshift
+      defaultHighlightedIndex={null}
+      defaultIsOpen={false}
+      environment={[Window]}
+      getA11yStatusMessage={[Function]}
+      initialInputValue=""
+      itemToString={[Function]}
+      onChange={[MockFunction]}
+      onInputValueChange={[Function]}
+      onOuterClick={[Function]}
+      onSelect={[Function]}
+      onStateChange={[Function]}
+      onUserAction={[Function]}
+      scrollIntoView={[Function]}
+      selectedItemChanged={[Function]}
+      stateReducer={[Function]}
+      suppressRefError={false}
+    >
+      <div
+        aria-expanded={true}
+        aria-haspopup="listbox"
+        aria-labelledby="downshift-10-label"
+        aria-owns="downshift-10-menu"
+        role="combobox"
+      >
+        <styled.div>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": true,
+                  "lastClassName": "c0",
+                  "rules": Array [
+                    "
+#agency365_spa & {
+  position: relative;
+}
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c0"
+            >
+              <styled.div>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bwzfXH",
+                        "isStatic": true,
+                        "lastClassName": "kKbPsW",
+                        "rules": Array [
+                          "
+#agency365_spa & {}
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bwzfXH",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className=""
+                  >
+                    <styled.div
+                      onClick={[Function]}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bxivhb",
+                              "isStatic": false,
+                              "lastClassName": "c1",
+                              "rules": Array [
+                                "
+#agency365_spa & {
+  display: flex;
+  background-color: ",
+                                [Function],
+                                ";
+  border: ",
+                                [Function],
+                                ";
+}
+
+  #agency365_spa & svg {
+    margin: auto 10px;
+  }
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bxivhb",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="c1"
+                          onClick={[Function]}
+                        >
+                          <styled.input
+                            aria-activedescendant={null}
+                            aria-autocomplete="list"
+                            aria-controls="downshift-10-menu"
+                            aria-labelledby="downshift-10-label"
+                            autoComplete="off"
+                            id="downshift-10-input"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onKeyDown={[Function]}
+                            value="ba"
+                          >
+                            <StyledComponent
+                              aria-activedescendant={null}
+                              aria-autocomplete="list"
+                              aria-controls="downshift-10-menu"
+                              aria-labelledby="downshift-10-label"
+                              autoComplete="off"
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-ifAKCX",
+                                    "isStatic": false,
+                                    "lastClassName": "c2",
+                                    "rules": Array [
+                                      "
+#agency365_spa & {
+  width: 100%;
+  flex-grow: 1;
+  box-shadow: none;
+  background: none;
+  border: 0;
+  padding: calc(",
+                                      [Function],
+                                      " + 2px);
+}
+
+  #agency365_spa &:focus {
+    outline: none;
+  }
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.input",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-ifAKCX",
+                                  "target": "input",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={
+                                Object {
+                                  "current": #agency365_spa .c0 {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  box-shadow: none;
+  background: none;
+  border: 0;
+  padding: calc(0.8rem + 2px);
+}
+
+#agency365_spa .c0:focus {
+  outline: none;
+}
+
+<input
+                                    aria-autocomplete="list"
+                                    aria-controls="downshift-10-menu"
+                                    aria-labelledby="downshift-10-label"
+                                    autocomplete="off"
+                                    class="c0"
+                                    id="downshift-10-input"
+                                    value="ba"
+                                  />,
+                                }
+                              }
+                              id="downshift-10-input"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onKeyDown={[Function]}
+                              value="ba"
+                            >
+                              <input
+                                aria-activedescendant={null}
+                                aria-autocomplete="list"
+                                aria-controls="downshift-10-menu"
+                                aria-labelledby="downshift-10-label"
+                                autoComplete="off"
+                                className="c2"
+                                id="downshift-10-input"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onKeyDown={[Function]}
+                                value="ba"
+                              />
+                            </StyledComponent>
+                          </styled.input>
+                          <ChevronUp>
+                            <svg
+                              height="10"
+                              version="1.1"
+                              viewBox="0 0 16 10"
+                              width="16"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g
+                                fill="none"
+                                fillRule="evenodd"
+                                stroke="none"
+                                strokeWidth="1"
+                              >
+                                <g
+                                  fill="#006A4D"
+                                  transform="translate(-98.000000, -16.000000)"
+                                >
+                                  <g
+                                    transform="translate(106.000000, 21.000000) rotate(90.000000) translate(-106.000000, -21.000000) translate(98.000000, 13.000000)"
+                                  >
+                                    <path
+                                      d="M5.12862876,7.95533112 L12.1953224,13.8849911 L11.1668622,15.1106622 L3.2,8.42567111 L3.20449273,8.42031688 L3.2,8.41904297 L3.2,7.48499114 L11.1668622,0.8 L12.1953224,2.02567111 L5.12862876,7.95533112 Z"
+                                    />
+                                  </g>
+                                </g>
+                              </g>
+                            </svg>
+                          </ChevronUp>
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                    <styled.div
+                      aria-labelledby="downshift-10-label"
+                      hasIcon={false}
+                      id="downshift-10-menu"
+                      role="listbox"
+                    >
+                      <StyledComponent
+                        aria-labelledby="downshift-10-label"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-EHOje",
+                              "isStatic": false,
+                              "lastClassName": "c3",
+                              "rules": Array [
+                                "
+#agency365_spa & {
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  margin-top: -1px;
+  overflow: auto;
+  background-color: ",
+                                [Function],
+                                ";
+  border: ",
+                                [Function],
+                                ";
+  border-top: none;
+  overflow-x: hidden;
+  padding: ",
+                                [Function],
+                                ";
+}
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-EHOje",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={[Function]}
+                        hasIcon={false}
+                        id="downshift-10-menu"
+                        role="listbox"
+                      >
+                        <div
+                          aria-labelledby="downshift-10-label"
+                          className="c3"
+                          id="downshift-10-menu"
+                          role="listbox"
+                        >
+                          <styled.button
+                            aria-selected={false}
+                            id="downshift-10-item-0"
+                            key="foo_bar"
+                            onClick={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseMove={[Function]}
+                            role="option"
+                          >
+                            <StyledComponent
+                              aria-selected={false}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [
+                                    Object {
+                                      "type": "button",
+                                    },
+                                  ],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bZQynM",
+                                    "isStatic": false,
+                                    "lastClassName": "c4",
+                                    "rules": Array [
+                                      "
+#agency365_spa & {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  padding: ",
+                                      [Function],
+                                      ";
+  background-color: ",
+                                      [Function],
+                                      ";
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+  #agency365_spa &:hover,
+  #agency365_spa &.highlighted {
+    color: ",
+                                      [Function],
+                                      ";
+    background-color: ",
+                                      [Function],
+                                      ";
+  }
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.button",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-bZQynM",
+                                  "target": "button",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              id="downshift-10-item-0"
+                              onClick={[Function]}
+                              onMouseDown={[Function]}
+                              onMouseMove={[Function]}
+                              role="option"
+                            >
+                              <button
+                                aria-selected={false}
+                                className="c4"
+                                id="downshift-10-item-0"
+                                onClick={[Function]}
+                                onMouseDown={[Function]}
+                                onMouseMove={[Function]}
+                                role="option"
+                                type="button"
+                              >
+                                <StringHighlighter
+                                  enabled={true}
+                                  highlightSection="ba"
+                                  str="bar"
+                                >
+                                  <span
+                                    dangerouslySetInnerHTML={
+                                      Object {
+                                        "__html": "<strong>ba</strong>r",
+                                      }
+                                    }
+                                  />
+                                </StringHighlighter>
+                              </button>
+                            </StyledComponent>
+                          </styled.button>
+                          <styled.button
+                            aria-selected={false}
+                            id="downshift-10-item-1"
+                            key="bar_baz"
+                            onClick={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseMove={[Function]}
+                            role="option"
+                          >
+                            <StyledComponent
+                              aria-selected={false}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [
+                                    Object {
+                                      "type": "button",
+                                    },
+                                  ],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bZQynM",
+                                    "isStatic": false,
+                                    "lastClassName": "c4",
+                                    "rules": Array [
+                                      "
+#agency365_spa & {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  padding: ",
+                                      [Function],
+                                      ";
+  background-color: ",
+                                      [Function],
+                                      ";
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+  #agency365_spa &:hover,
+  #agency365_spa &.highlighted {
+    color: ",
+                                      [Function],
+                                      ";
+    background-color: ",
+                                      [Function],
+                                      ";
+  }
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.button",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-bZQynM",
+                                  "target": "button",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              id="downshift-10-item-1"
+                              onClick={[Function]}
+                              onMouseDown={[Function]}
+                              onMouseMove={[Function]}
+                              role="option"
+                            >
+                              <button
+                                aria-selected={false}
+                                className="c4"
+                                id="downshift-10-item-1"
+                                onClick={[Function]}
+                                onMouseDown={[Function]}
+                                onMouseMove={[Function]}
+                                role="option"
+                                type="button"
+                              >
+                                <StringHighlighter
+                                  enabled={true}
+                                  highlightSection="ba"
+                                  str="baz"
+                                >
+                                  <span
+                                    dangerouslySetInnerHTML={
+                                      Object {
+                                        "__html": "<strong>ba</strong>z",
+                                      }
+                                    }
+                                  />
+                                </StringHighlighter>
+                              </button>
+                            </StyledComponent>
+                          </styled.button>
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </Downshift>
+  </Select>
+</ThemeProvider>
+`;
+
+exports[`components/SharedComponents select should render correctly when textEditable is false 1`] = `
+<div
+  aria-expanded={false}
+  aria-haspopup="listbox"
+  aria-labelledby="downshift-13-label"
+  aria-owns={null}
+  role="combobox"
+>
+  <styled.div>
+    <styled.div>
+      <styled.div
+        onClick={[Function]}
+      >
+        <styled.input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls={null}
+          aria-labelledby="downshift-13-label"
+          autoComplete="off"
+          id="downshift-13-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          readOnly={true}
+          value=""
+        />
+        <ChevronDown />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</div>
+`;
+
+exports[`components/SharedComponents select should render correctly with a default value 1`] = `
+<div
+  aria-expanded={false}
+  aria-haspopup="listbox"
+  aria-labelledby="downshift-7-label"
+  aria-owns={null}
+  role="combobox"
+>
+  <styled.div>
+    <styled.div>
+      <styled.div
+        onClick={[Function]}
+      >
+        <styled.input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls={null}
+          aria-labelledby="downshift-7-label"
+          autoComplete="off"
+          id="downshift-7-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          value="baz"
+        />
+        <ChevronDown />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</div>
+`;
+
+exports[`components/SharedComponents select should render correctly with a label 1`] = `
+<div
+  aria-expanded={false}
+  aria-haspopup="listbox"
+  aria-labelledby="downshift-2-label"
+  aria-owns={null}
+  role="combobox"
+>
+  <styled.div>
+    <styled.label
+      htmlFor="downshift-2-input"
+      id="downshift-2-label"
+    >
+      A label
+    </styled.label>
+    <styled.div>
+      <styled.div
+        onClick={[Function]}
+      >
+        <styled.input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls={null}
+          aria-labelledby="downshift-2-label"
+          autoComplete="off"
+          id="downshift-2-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          value=""
+        />
+        <ChevronDown />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</div>
+`;
+
+exports[`components/SharedComponents select should render correctly with a placeholder 1`] = `
+<div
+  aria-expanded={false}
+  aria-haspopup="listbox"
+  aria-labelledby="downshift-3-label"
+  aria-owns={null}
+  role="combobox"
+>
+  <styled.div>
+    <styled.div>
+      <styled.div
+        onClick={[Function]}
+      >
+        <styled.input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls={null}
+          aria-labelledby="downshift-3-label"
+          autoComplete="off"
+          id="downshift-3-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="A placeholder"
+          value=""
+        />
+        <ChevronDown />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</div>
+`;
+
+exports[`components/SharedComponents select should render correctly with a selected item 1`] = `
+<div
+  aria-expanded={false}
+  aria-haspopup="listbox"
+  aria-labelledby="downshift-8-label"
+  aria-owns={null}
+  role="combobox"
+>
+  <styled.div>
+    <styled.div>
+      <styled.div
+        onClick={[Function]}
+      >
+        <styled.input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls={null}
+          aria-labelledby="downshift-8-label"
+          autoComplete="off"
+          id="downshift-8-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          value="bar"
+        />
+        <ChevronDown />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</div>
+`;
+
+exports[`components/SharedComponents select should render correctly with an icon 1`] = `
+<div
+  aria-expanded={false}
+  aria-haspopup="listbox"
+  aria-labelledby="downshift-1-label"
+  aria-owns={null}
+  role="combobox"
+>
+  <styled.div>
+    <styled.div>
+      <styled.div
+        onClick={[Function]}
+      >
+        <MagnifyingGlass />
+        <styled.input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls={null}
+          aria-labelledby="downshift-1-label"
+          autoComplete="off"
+          id="downshift-1-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          value=""
+        />
+        <ChevronDown />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</div>
+`;
+
+exports[`components/SharedComponents select should render correctly with an initial value 1`] = `
+<div
+  aria-expanded={false}
+  aria-haspopup="listbox"
+  aria-labelledby="downshift-5-label"
+  aria-owns={null}
+  role="combobox"
+>
+  <styled.div>
+    <styled.div>
+      <styled.div
+        onClick={[Function]}
+      >
+        <styled.input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls={null}
+          aria-labelledby="downshift-5-label"
+          autoComplete="off"
+          id="downshift-5-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          value="An initial value"
+        />
+        <ChevronDown />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</div>
+`;
+
+exports[`components/SharedComponents select should render correctly with default props 1`] = `
+<div
+  aria-expanded={false}
+  aria-haspopup="listbox"
+  aria-labelledby="downshift-0-label"
+  aria-owns={null}
+  role="combobox"
+>
+  <styled.div>
+    <styled.div>
+      <styled.div
+        onClick={[Function]}
+      >
+        <styled.input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls={null}
+          aria-labelledby="downshift-0-label"
+          autoComplete="off"
+          id="downshift-0-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          value=""
+        />
+        <ChevronDown />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</div>
+`;
